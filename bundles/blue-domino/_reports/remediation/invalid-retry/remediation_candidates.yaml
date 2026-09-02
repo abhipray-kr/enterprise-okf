@@ -1,0 +1,755 @@
+schema_version: okf.remediation_candidates.v1
+generated_at: '2026-09-02T22:58:06.851578+00:00'
+candidate_count: 30
+candidates:
+- candidate_id: missing-deployment.createsecret
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.createsecret
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=createSecret]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.createsecret
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: createSecret
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/Services/createsecret.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.default
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.default
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=default]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.default
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: default
+    supporting_fact_count: 6
+    example_source_files:
+    - ValueYAMLOverrides/default/defaultCronOverrideToEnableVolumeMountForYcqlCert.yaml
+    - ValueYAMLOverrides/default/defaultOverrideToEnableVolumeMountForYcqlCert.yaml
+    - ValueYAMLOverrides/default/defaultOverrideValues.yaml
+    - ValueYAMLOverrides/default/defaultOverrideValuesECCoreAlerts.yaml
+    - ValueYAMLOverrides/default/defaultOverrideValuesWithoutIngress.yaml
+    - ValueYAMLOverrides/default/defaultOverrideValuesWithoutMaxCPU.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths:
+    - /.well-known/heartbeat
+- candidate_id: missing-deployment.digital-sync-cdc
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.digital-sync-cdc
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=digital-sync-cdc]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.digital-sync-cdc
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: digital-sync-cdc
+    supporting_fact_count: 10
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/digital-sync-cdc/aks_cx_encust_01_prod_centralus_encust_prod_ecDigitalSyncCdc.yaml
+    - .harness/Overrides/ServiceSpecific/digital-sync-cdc/aks_cx_encust_01_prod_eastus2_encust_prod_ecDigitalSyncCdc.yaml
+    - .harness/Overrides/ServiceSpecific/digital-sync-cdc/aks_cx_encust_01_stage_centralus_encust_stage_ecDigitalSyncCdc.yaml
+    - .harness/Overrides/ServiceSpecific/digital-sync-cdc/aks_cx_encust_01_stage_eastus2_encust_stage_ecDigitalSyncCdc.yaml
+    - .harness/Overrides/ServiceSpecific/digital-sync-cdc/aks_cx_shared_01_dev_centralus_encust_dev_ecDigitalSyncCdc.yaml
+    - ValueYAMLOverrides/digital-sync-cdc/digitalSyncCDCProdCentralOverridesValue.yaml
+    - ValueYAMLOverrides/digital-sync-cdc/digitalSyncCDCProdEastOverridesValue.yaml
+    - ValueYAMLOverrides/digital-sync-cdc/digitalSyncCDCSatgeEastOveriddesValue.yaml
+    environment_names: []
+    namespaces:
+    - <+infra.namespace>
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.disney-daily-reconciliation
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.disney-daily-reconciliation
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=disney-daily-reconciliation]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.disney-daily-reconciliation
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: disney-daily-reconciliation
+    supporting_fact_count: 2
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/disney-daily-reconciliation/aks_cx_encust_01_prod_centralus_encust_prod_disneydailyreconciliationbatchjob.yaml
+    - .harness/Overrides/ServiceSpecific/disney-daily-reconciliation/aks_cx_encust_01_stage_centralus_encust_stage_disneydailyreconciliationbatchjob.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.disney-daily-reconciliation-batch-job
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.disney-daily-reconciliation-batch-job
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=disney-daily-reconciliation-batch-job]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.disney-daily-reconciliation-batch-job
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: disney-daily-reconciliation-batch-job
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/Services/disneydailyreconciliationbatchjob.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.disney-monthly-reconciliation
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.disney-monthly-reconciliation
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=disney-monthly-reconciliation]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.disney-monthly-reconciliation
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: disney-monthly-reconciliation
+    supporting_fact_count: 2
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/disney-monthly-reconciliation/aks_cx_encust_01_prod_centralus_encust_prod_disneymonthlyreconciliationbatchjob.yaml
+    - .harness/Overrides/ServiceSpecific/disney-monthly-reconciliation/aks_cx_encust_01_stage_centralus_encust_stage_disneymonthlyreconciliationbatchjob.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.disney-monthly-reconciliation-batch-job
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.disney-monthly-reconciliation-batch-job
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=disney-monthly-reconciliation-batch-job]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.disney-monthly-reconciliation-batch-job
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: disney-monthly-reconciliation-batch-job
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/Services/disneymonthlyreconciliationbatchjob.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.ec
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.ec
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=ec]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.ec
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: ec
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/InputSets/ec/commonOneStageInputSet.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.ec-cp-forward-sync
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.ec-cp-forward-sync
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=ec-cp-forward-sync]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.ec-cp-forward-sync
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: ec-cp-forward-sync
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/Services/Ec-Cp-Forward-Sync/eccpforwardsync.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.ec-cp-sync
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.ec-cp-sync
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=EC-CP-Sync]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.ec-cp-sync
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: EC-CP-Sync
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/Pipelines/EC-CP-Sync/eccpeventconsumer.yml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.getting-started-service
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.getting-started-service
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=getting-started-service]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.getting-started-service
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: getting-started-service
+    supporting_fact_count: 3
+    example_source_files:
+    - ValueYAMLOverrides/getting-started-service/app-demo-dev-values.yaml
+    - ValueYAMLOverrides/getting-started-service/app-demo-prod-values.yaml
+    - ValueYAMLOverrides/getting-started-service/app-demo-stage-values.yaml
+    environment_names: []
+    namespaces:
+    - <+infra.namespace>
+    pipelines: []
+    ingress_paths:
+    - /
+- candidate_id: missing-deployment.harness
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.harness
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=.harness]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.harness
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: .harness
+    supporting_fact_count: 8
+    example_source_files:
+    - .harness/cpcoreapps_C.yaml
+    - .harness/cpcoreappsdeploy.yaml
+    - .harness/cpcoreappsdevdeplo.yaml
+    - .harness/cpcoreappsstagedeploy_Clone.yaml
+    - .harness/ecAppInputSet.yaml
+    - .harness/ecAppInputSets.yaml
+    - .harness/ecAppsInputSet.yaml
+    - .harness/partnerfulfillmentappsdev.yaml
+    environment_names: []
+    namespaces:
+    - <+input>.executionInput()
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.harness-example
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.harness-example
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=harness-example]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.harness-example
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: harness-example
+    supporting_fact_count: 2
+    example_source_files:
+    - ValueYAMLOverrides/caspian-error-reprocessing/values.yaml
+    - ValueYAMLOverrides/caspian-groups-sync/values.yaml
+    environment_names: []
+    namespaces:
+    - <+infra.namespace>
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.health-monitor
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.health-monitor
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=health-monitor]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.health-monitor
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: health-monitor
+    supporting_fact_count: 6
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/health-monitor/aks_cx_encust_01_prod_centralus_encust_prod_healthmonitor.yaml
+    - .harness/Overrides/ServiceSpecific/health-monitor/aks_cx_encust_01_prod_eastus2_encust_prod_healthmonitor.yaml
+    - .harness/Overrides/ServiceSpecific/health-monitor/aks_cx_encust_01_stage_centralus_encust_stage_healthmonitor.yaml
+    - .harness/Overrides/ServiceSpecific/health-monitor/aks_cx_encust_01_stage_eastus2_encust_stage_healthmonitor.yaml
+    - .harness/Services/healthmonitor.yaml
+    - ValueYAMLOverrides/health-monitor/healthMonitorValueOverrides.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.loyalty-bulkload-sync
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.loyalty-bulkload-sync
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=loyalty-bulkload-sync]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.loyalty-bulkload-sync
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: loyalty-bulkload-sync
+    supporting_fact_count: 10
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/loyalty-bulkload-sync/aks_cx_encust_01_prod_centralus_encust_prod_ecLoyaltyBulkLoadSync.yaml
+    - .harness/Overrides/ServiceSpecific/loyalty-bulkload-sync/aks_cx_encust_01_prod_eastus2_encust_prod_ecLoyaltyBulkLoadSync.yaml
+    - .harness/Overrides/ServiceSpecific/loyalty-bulkload-sync/aks_cx_encust_01_stage_centralus_encust_stage_ecLoyaltyBulkLoadSync.yaml
+    - .harness/Overrides/ServiceSpecific/loyalty-bulkload-sync/aks_cx_encust_01_stage_eastus2_encust_stage_ecLoyaltyBulkLoadSync.yaml
+    - .harness/Overrides/ServiceSpecific/loyalty-bulkload-sync/aks_cx_shared_01_dev_centralus_encust_dev_ecLoyaltyBulkLoadSync.yaml
+    - ValueYAMLOverrides/loyalty-bulkload-sync/loyaltyBulkloadSyncProdCentralOverridesValue.yaml
+    - ValueYAMLOverrides/loyalty-bulkload-sync/loyaltyBulkloadSyncProdEastOverridesValue.yaml
+    - ValueYAMLOverrides/loyalty-bulkload-sync/loyaltyBulkloadSyncStageCentralOverridesValue.yaml
+    environment_names: []
+    namespaces:
+    - <+infra.namespace>
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.loyalty-sync
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.loyalty-sync
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=loyalty-sync]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.loyalty-sync
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: loyalty-sync
+    supporting_fact_count: 10
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/loyalty-sync/aks_cx_encust_01_prod_centralus_encust_prod_ecLoyaltySync.yaml
+    - .harness/Overrides/ServiceSpecific/loyalty-sync/aks_cx_encust_01_prod_eastus2_encust_prod_ecLoyaltySync.yaml
+    - .harness/Overrides/ServiceSpecific/loyalty-sync/aks_cx_encust_01_stage_centralus_encust_stage_ecLoyaltySync.yaml
+    - .harness/Overrides/ServiceSpecific/loyalty-sync/aks_cx_encust_01_stage_eastus2_encust_stage_ecLoyaltySync.yaml
+    - .harness/Overrides/ServiceSpecific/loyalty-sync/aks_cx_shared_01_dev_centralus_encust_dev_ecLoyaltySync.yaml
+    - ValueYAMLOverrides/loyalty-sync/loyaltySyncProdCentralValuesOverrideValue.yaml
+    - ValueYAMLOverrides/loyalty-sync/loyaltySyncProdEastValuesOverrideValue.yaml
+    - ValueYAMLOverrides/loyalty-sync/loyaltySyncStageCentralValuesOverrideValue.yaml
+    environment_names: []
+    namespaces:
+    - <+infra.namespace>
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.node-harness-cli-gh-action
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.node-harness-cli-gh-action
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=Node Harness CLI GH Action]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.node-harness-cli-gh-action
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: Node Harness CLI GH Action
+    supporting_fact_count: 1
+    example_source_files:
+    - .github/workflows/trigger_harness_pipeline.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.pa-cp-dlq-consumer-cron
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.pa-cp-dlq-consumer-cron
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=pa-cp-dlq-consumer-cron]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.pa-cp-dlq-consumer-cron
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: pa-cp-dlq-consumer-cron
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/Services/PaCpEventConsumer/pacpforwardsyncdlqconsumer.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.pa-cp-event-consumer-cron
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.pa-cp-event-consumer-cron
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=pa-cp-event-consumer-cron]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.pa-cp-event-consumer-cron
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: pa-cp-event-consumer-cron
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/Services/PaCpEventConsumer/pacpeventconsumercron.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.pa-cp-forward-sync
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.pa-cp-forward-sync
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=pa-cp-forward-sync]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.pa-cp-forward-sync
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: pa-cp-forward-sync
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/Services/PaCpForwardSync/pacpforwardsync.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.personcore
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.personcore
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=personCore]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.personcore
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: personCore
+    supporting_fact_count: 1
+    example_source_files:
+    - .harness/cp_person_core_dev_test.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.preferences-core
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.preferences-core
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=preferences-core]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.preferences-core
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: preferences-core
+    supporting_fact_count: 12
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_encust_01_prod_centralus_encust_prod_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_encust_01_prod_eastus2_encust_prod_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_encust_01_stage_centralus_encust_stage_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_encust_01_stage_eastus2_encust_stage_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_shared_01_dev_centralus_encust_dev_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aksencusttest_preferencesCore.yaml
+    - ValueYAMLOverrides/preferences-core/devValuesOverride.yaml
+    - ValueYAMLOverrides/preferences-core/preferencesCoreProdCentralOverridesValue.yaml
+    environment_names: []
+    namespaces:
+    - <+infra.namespace>
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.servicespecific
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.servicespecific
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=ServiceSpecific]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.servicespecific
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: ServiceSpecific
+    supporting_fact_count: 2
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/aks_cx_encust_01_stage_centralus_encust_stage_cpperformancetest.yaml
+    - .harness/Overrides/ServiceSpecific/aks_cx_encust_01_stage_eastus2_encust_stage_cpperformancetest.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.shopper-profiles-core
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.shopper-profiles-core
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=shopper-profiles-core]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.shopper-profiles-core
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: shopper-profiles-core
+    supporting_fact_count: 11
+    example_source_files:
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_encust_01_prod_centralus_encust_prod_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_encust_01_prod_eastus2_encust_prod_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_encust_01_stage_centralus_encust_stage_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_encust_01_stage_eastus2_encust_stage_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_shared_01_dev_centralus_encust_dev_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aksencusttest_shopperProfilesCore.yaml
+    - ValueYAMLOverrides/shopper-profiles-core/shopperProfileCoreProdCentralOverridesValue.yaml
+    - ValueYAMLOverrides/shopper-profiles-core/shopperProfileCoreProdEastOverrideValues.yaml
+    environment_names: []
+    namespaces:
+    - <+infra.namespace>
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.sync-harness-ng-token
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.sync-harness-ng-token
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=Sync Harness NG Token]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.sync-harness-ng-token
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: Sync Harness NG Token
+    supporting_fact_count: 1
+    example_source_files:
+    - .github/workflows/sync_harness_token.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.update-configs-for-performance-test-core-services
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.update-configs-for-performance-test-core-services
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=Update configs for performance test (core services)]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.update-configs-for-performance-test-core-services
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: Update configs for performance test (core services)
+    supporting_fact_count: 1
+    example_source_files:
+    - .github/workflows/update_configs_for_ec_performance_test.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-deployment.valkyrie
+  candidate_type: missing_deployment_concept
+  target_concept_id: deployment.valkyrie
+  recommended_action: create_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=valkyrie]
+  existing_okf_context:
+    matched_concepts: []
+    related_concepts:
+    - service.valkyrie
+  reason: Deployment/runtime facts exist but no deployment concept was found in OKF
+    index.
+  compact_evidence:
+    service_name: valkyrie
+    supporting_fact_count: 6
+    example_source_files:
+    - .harness/Services/Caspian/valkyrie.yaml
+    - ValueYAMLOverrides/valkyrie/templates/deployment.yaml
+    - ValueYAMLOverrides/valkyrie/templates/ingress.yaml
+    - ValueYAMLOverrides/valkyrie/templates/service.yaml
+    - ValueYAMLOverrides/valkyrie/valuesoverrideValues.yaml
+    - ValueYAMLOverrides/valkyrie/valuesoverridethanosValuesValkyrie.yaml
+    environment_names: []
+    namespaces: []
+    pipelines: []
+    ingress_paths: []
+- candidate_id: missing-relationship.harness-ng-config-kps-encust.depends_on.partner-benefit-subscriber
+  candidate_type: missing_relationship
+  target_concept_id: repository.harness-ng-config-kps-encust
+  recommended_action: update_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/codebase_ast_map.json
+    pointer: cross_repo_dependencies[harness-ng-config-kps-encust->partner-benefit-subscriber]
+  existing_okf_context:
+    matched_concepts:
+    - repository.harness-ng-config-kps-encust
+    related_concepts:
+    - repository.partner-benefit-subscriber
+  reason: Cross-repository dependency exists in code evidence but the OKF relationship
+    edge is missing.
+  compact_evidence:
+    source_repository: harness-ng-config-kps-encust
+    target_repository: partner-benefit-subscriber
+    supporting_edge_count: 1
+- candidate_id: missing-relationship.harness-ng-config-kps-encust.depends_on.partner-fulfillment-orchestrator
+  candidate_type: missing_relationship
+  target_concept_id: repository.harness-ng-config-kps-encust
+  recommended_action: update_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/codebase_ast_map.json
+    pointer: cross_repo_dependencies[harness-ng-config-kps-encust->partner-fulfillment-orchestrator]
+  existing_okf_context:
+    matched_concepts:
+    - repository.harness-ng-config-kps-encust
+    related_concepts:
+    - repository.partner-fulfillment-orchestrator
+  reason: Cross-repository dependency exists in code evidence but the OKF relationship
+    edge is missing.
+  compact_evidence:
+    source_repository: harness-ng-config-kps-encust
+    target_repository: partner-fulfillment-orchestrator
+    supporting_edge_count: 8
+- candidate_id: missing-relationship.harness-ng-config-kps-encust.depends_on.partner-fulfillment-tokenmanager
+  candidate_type: missing_relationship
+  target_concept_id: repository.harness-ng-config-kps-encust
+  recommended_action: update_concept
+  confidence_hint: Medium
+  evidence:
+  - artifact: code_comprehension/codebase_ast_map.json
+    pointer: cross_repo_dependencies[harness-ng-config-kps-encust->partner-fulfillment-tokenmanager]
+  existing_okf_context:
+    matched_concepts:
+    - repository.harness-ng-config-kps-encust
+    related_concepts:
+    - repository.partner-fulfillment-tokenmanager
+  reason: Cross-repository dependency exists in code evidence but the OKF relationship
+    edge is missing.
+  compact_evidence:
+    source_repository: harness-ng-config-kps-encust
+    target_repository: partner-fulfillment-tokenmanager
+    supporting_edge_count: 6

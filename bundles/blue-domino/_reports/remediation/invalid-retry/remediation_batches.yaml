@@ -1,0 +1,43 @@
+schema_version: okf.remediation_batches.v1
+generated_at: '2026-09-02T22:58:06.883520+00:00'
+batch_count: 3
+batches:
+- batch_id: remediation-batch-0001
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.createsecret
+  - missing-deployment.default
+  - missing-deployment.digital-sync-cdc
+  - missing-deployment.disney-daily-reconciliation
+  - missing-deployment.disney-daily-reconciliation-batch-job
+  - missing-deployment.disney-monthly-reconciliation
+  - missing-deployment.disney-monthly-reconciliation-batch-job
+  - missing-deployment.ec
+  - missing-deployment.ec-cp-forward-sync
+  - missing-deployment.ec-cp-sync
+- batch_id: remediation-batch-0002
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.getting-started-service
+  - missing-deployment.harness
+  - missing-deployment.harness-example
+  - missing-deployment.health-monitor
+  - missing-deployment.loyalty-bulkload-sync
+  - missing-deployment.loyalty-sync
+  - missing-deployment.node-harness-cli-gh-action
+  - missing-deployment.pa-cp-dlq-consumer-cron
+  - missing-deployment.pa-cp-event-consumer-cron
+  - missing-deployment.pa-cp-forward-sync
+- batch_id: remediation-batch-0003
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.personcore
+  - missing-deployment.preferences-core
+  - missing-deployment.servicespecific
+  - missing-deployment.shopper-profiles-core
+  - missing-deployment.sync-harness-ng-token
+  - missing-deployment.update-configs-for-performance-test-core-services
+  - missing-deployment.valkyrie
+  - missing-relationship.harness-ng-config-kps-encust.depends_on.partner-benefit-subscriber
+  - missing-relationship.harness-ng-config-kps-encust.depends_on.partner-fulfillment-orchestrator
+  - missing-relationship.harness-ng-config-kps-encust.depends_on.partner-fulfillment-tokenmanager

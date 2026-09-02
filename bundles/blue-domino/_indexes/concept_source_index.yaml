@@ -1,0 +1,758 @@
+schema_version: okf.concept_source_index.v1
+domain: '96894978'
+generated:
+  generated_at: '2026-09-02T22:59:53.882801Z'
+  generator: okf-confluence
+  source: compiled_from_concept_files
+  source_hash: null
+concepts:
+  api_route.create-fulfillment:
+    canonical_id: api_route.create-fulfillment
+    path: concepts/api_route.create-fulfillment.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: primary
+  api_route.disney-daily-execute-previous-day:
+    canonical_id: api_route.disney-daily-execute-previous-day
+    path: concepts/api_route.disney-daily-execute-previous-day.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  api_route.disney-daily-execute-specific-file:
+    canonical_id: api_route.disney-daily-execute-specific-file
+    path: concepts/api_route.disney-daily-execute-specific-file.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  api_route.disney-monthly-execute-reconciliation:
+    canonical_id: api_route.disney-monthly-execute-reconciliation
+    path: concepts/api_route.disney-monthly-execute-reconciliation.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  api_route.disney-monthly-execute-responder:
+    canonical_id: api_route.disney-monthly-execute-responder
+    path: concepts/api_route.disney-monthly-execute-responder.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  api_route.disney-monthly-list-files:
+    canonical_id: api_route.disney-monthly-list-files
+    path: concepts/api_route.disney-monthly-list-files.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  api_route.disney-monthly-retrieve-hulu-responder:
+    canonical_id: api_route.disney-monthly-retrieve-hulu-responder
+    path: concepts/api_route.disney-monthly-retrieve-hulu-responder.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  api_route.disney-monthly-retrieve-reconciliation:
+    canonical_id: api_route.disney-monthly-retrieve-reconciliation
+    path: concepts/api_route.disney-monthly-retrieve-reconciliation.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  api_route.fetch-fulfillments:
+    canonical_id: api_route.fetch-fulfillments
+    path: concepts/api_route.fetch-fulfillments.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: primary
+  api_route.get-jwks:
+    canonical_id: api_route.get-jwks
+    path: concepts/api_route.get-jwks.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  api_route.sign-token:
+    canonical_id: api_route.sign-token
+    path: concepts/api_route.sign-token.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  api_route.update-fulfillment:
+    canonical_id: api_route.update-fulfillment
+    path: concepts/api_route.update-fulfillment.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: primary
+  architecture.disney-redemption-file-automation:
+    canonical_id: architecture.disney-redemption-file-automation
+    path: concepts/architecture.disney-redemption-file-automation.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '1247871291'
+        page_title: Disney Redemption File Upload - Automation Approach
+        page_version: 13
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/1247871291/Disney+Redemption+File+Upload+-+Automation+Approach
+        role: primary
+  architecture.domino-key-rotation:
+    canonical_id: architecture.domino-key-rotation
+    path: concepts/architecture.domino-key-rotation.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  architecture.pfo-regional-deployment:
+    canonical_id: architecture.pfo-regional-deployment
+    path: concepts/architecture.pfo-regional-deployment.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895308'
+        page_title: partner-fulfillment-orchestrator
+        page_version: 26
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895308/partner-fulfillment-orchestrator
+        role: primary
+  contract.disney-redemption-csv-format:
+    canonical_id: contract.disney-redemption-csv-format
+    path: concepts/contract.disney-redemption-csv-format.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '1247871291'
+        page_title: Disney Redemption File Upload - Automation Approach
+        page_version: 13
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/1247871291/Disney+Redemption+File+Upload+-+Automation+Approach
+        role: primary
+  dashboard.daily-reconciliation-dynatrace:
+    canonical_id: dashboard.daily-reconciliation-dynatrace
+    path: concepts/dashboard.daily-reconciliation-dynatrace.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  dashboard.partner-fulfillment-data-dynatrace:
+    canonical_id: dashboard.partner-fulfillment-data-dynatrace
+    path: concepts/dashboard.partner-fulfillment-data-dynatrace.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  dashboard.partner-fulfillment-domain-dynatrace:
+    canonical_id: dashboard.partner-fulfillment-domain-dynatrace
+    path: concepts/dashboard.partner-fulfillment-domain-dynatrace.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  dashboard.partner-fulfillment-orchestrator-dynatrace:
+    canonical_id: dashboard.partner-fulfillment-orchestrator-dynatrace
+    path: concepts/dashboard.partner-fulfillment-orchestrator-dynatrace.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  dashboard.production-awareness-datadog:
+    canonical_id: dashboard.production-awareness-datadog
+    path: concepts/dashboard.production-awareness-datadog.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  dashboard.signup-datadog:
+    canonical_id: dashboard.signup-datadog
+    path: concepts/dashboard.signup-datadog.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  data_model.jwks-response:
+    canonical_id: data_model.jwks-response
+    path: concepts/data_model.jwks-response.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  data_model.key-cache:
+    canonical_id: data_model.key-cache
+    path: concepts/data_model.key-cache.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  data_model.rsa-key-pair:
+    canonical_id: data_model.rsa-key-pair
+    path: concepts/data_model.rsa-key-pair.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  deployment_process.process-domino-batch-jobs-release:
+    canonical_id: deployment_process.process-domino-batch-jobs-release
+    path: concepts/deployment_process.process-domino-batch-jobs-release.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  deployment_process.process-domino-jwk-token-rotation:
+    canonical_id: deployment_process.process-domino-jwk-token-rotation
+    path: concepts/deployment_process.process-domino-jwk-token-rotation.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895586'
+        page_title: 🔐 JWK Token Rotation Plan for Domino - Production Readiness
+        page_version: 16
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895586/JWK+Token+Rotation+Plan+for+Domino+-+Production+Readiness
+        role: primary
+  deployment_process.process-partner-benefit-subscriber-recovery:
+    canonical_id: deployment_process.process-partner-benefit-subscriber-recovery
+    path: concepts/deployment_process.process-partner-benefit-subscriber-recovery.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895323'
+        page_title: partner-benefit-subscriber
+        page_version: 36
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895323/partner-benefit-subscriber
+        role: primary
+  disaster_recovery_plan.plan-partner-benefit-subscriber:
+    canonical_id: disaster_recovery_plan.plan-partner-benefit-subscriber
+    path: concepts/disaster_recovery_plan.plan-partner-benefit-subscriber.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895323'
+        page_title: partner-benefit-subscriber
+        page_version: 36
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895323/partner-benefit-subscriber
+        role: primary
+  disaster_recovery_plan.plan-partner-fulfillment-services:
+    canonical_id: disaster_recovery_plan.plan-partner-fulfillment-services
+    path: concepts/disaster_recovery_plan.plan-partner-fulfillment-services.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895306'
+        page_title: partner-fulfillment-api
+        page_version: 25
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895306/partner-fulfillment-api
+        role: primary
+  disaster_recovery_plan.plan-pfa-regional-failover:
+    canonical_id: disaster_recovery_plan.plan-pfa-regional-failover
+    path: concepts/disaster_recovery_plan.plan-pfa-regional-failover.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895306'
+        page_title: partner-fulfillment-api
+        page_version: 25
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895306/partner-fulfillment-api
+        role: primary
+  disaster_recovery_plan.plan-pfo-regional-failover:
+    canonical_id: disaster_recovery_plan.plan-pfo-regional-failover
+    path: concepts/disaster_recovery_plan.plan-pfo-regional-failover.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895308'
+        page_title: partner-fulfillment-orchestrator
+        page_version: 26
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895308/partner-fulfillment-orchestrator
+        role: primary
+  disaster_recovery_plan.plan-reconciliation-batch-jobs-dr:
+    canonical_id: disaster_recovery_plan.plan-reconciliation-batch-jobs-dr
+    path: concepts/disaster_recovery_plan.plan-reconciliation-batch-jobs-dr.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895386'
+        page_title: ReconciliationBatchJob(Monthly and Daily)
+        page_version: 7
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895386/ReconciliationBatchJob+Monthly+and+Daily
+        role: primary
+  external_system.aks-dev-cluster:
+    canonical_id: external_system.aks-dev-cluster
+    path: concepts/external_system.aks-dev-cluster.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  external_system.aks-prod-cluster:
+    canonical_id: external_system.aks-prod-cluster
+    path: concepts/external_system.aks-prod-cluster.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  external_system.aks-stage-cluster:
+    canonical_id: external_system.aks-stage-cluster
+    path: concepts/external_system.aks-stage-cluster.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  external_system.azure-key-vault:
+    canonical_id: external_system.azure-key-vault
+    path: concepts/external_system.azure-key-vault.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  external_system.disney:
+    canonical_id: external_system.disney
+    path: concepts/external_system.disney.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: referenced
+  external_system.rancher-central-nonprod:
+    canonical_id: external_system.rancher-central-nonprod
+    path: concepts/external_system.rancher-central-nonprod.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  external_system.rancher-central-prod:
+    canonical_id: external_system.rancher-central-prod
+    path: concepts/external_system.rancher-central-prod.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  job.disney-redemption-cron-job:
+    canonical_id: job.disney-redemption-cron-job
+    path: concepts/job.disney-redemption-cron-job.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '1247871291'
+        page_title: Disney Redemption File Upload - Automation Approach
+        page_version: 13
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/1247871291/Disney+Redemption+File+Upload+-+Automation+Approach
+        role: primary
+  job.domino-monthly-hulu-responder-batch:
+    canonical_id: job.domino-monthly-hulu-responder-batch
+    path: concepts/job.domino-monthly-hulu-responder-batch.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  job.domino-monthly-reconciliation-batch:
+    canonical_id: job.domino-monthly-reconciliation-batch
+    path: concepts/job.domino-monthly-reconciliation-batch.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  job.domino-nightly-daf-responder-batch:
+    canonical_id: job.domino-nightly-daf-responder-batch
+    path: concepts/job.domino-nightly-daf-responder-batch.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895502'
+        page_title: Domino Batch Jobs
+        page_version: 5
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+        role: primary
+  job.key-vault-manager:
+    canonical_id: job.key-vault-manager
+    path: concepts/job.key-vault-manager.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  job.partnerfulfillmentdailyreconciliationbatchjob:
+    canonical_id: job.partnerfulfillmentdailyreconciliationbatchjob
+    path: concepts/job.partnerfulfillmentdailyreconciliationbatchjob.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895386'
+        page_title: ReconciliationBatchJob(Monthly and Daily)
+        page_version: 7
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895386/ReconciliationBatchJob+Monthly+and+Daily
+        role: primary
+  job.partnerfulfillmentmonthlyreconciliationbatchjob:
+    canonical_id: job.partnerfulfillmentmonthlyreconciliationbatchjob
+    path: concepts/job.partnerfulfillmentmonthlyreconciliationbatchjob.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895386'
+        page_title: ReconciliationBatchJob(Monthly and Daily)
+        page_version: 7
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895386/ReconciliationBatchJob+Monthly+and+Daily
+        role: primary
+  runbook.disney-redemption-automation-setup:
+    canonical_id: runbook.disney-redemption-automation-setup
+    path: concepts/runbook.disney-redemption-automation-setup.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '1247871291'
+        page_title: Disney Redemption File Upload - Automation Approach
+        page_version: 13
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/1247871291/Disney+Redemption+File+Upload+-+Automation+Approach
+        role: primary
+  runbook.jarvis-profile-alias-lookup:
+    canonical_id: runbook.jarvis-profile-alias-lookup
+    path: concepts/runbook.jarvis-profile-alias-lookup.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: primary
+  security_control.control-disney-redemption-vm-user-restriction:
+    canonical_id: security_control.control-disney-redemption-vm-user-restriction
+    path: concepts/security_control.control-disney-redemption-vm-user-restriction.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '1247871291'
+        page_title: Disney Redemption File Upload - Automation Approach
+        page_version: 13
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/1247871291/Disney+Redemption+File+Upload+-+Automation+Approach
+        role: primary
+  security_control.control-domino-jwk-token-rotation-config:
+    canonical_id: security_control.control-domino-jwk-token-rotation-config
+    path: concepts/security_control.control-domino-jwk-token-rotation-config.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895586'
+        page_title: 🔐 JWK Token Rotation Plan for Domino - Production Readiness
+        page_version: 16
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895586/JWK+Token+Rotation+Plan+for+Domino+-+Production+Readiness
+        role: primary
+  security_control.control-key-rotation-schedule:
+    canonical_id: security_control.control-key-rotation-schedule
+    path: concepts/security_control.control-key-rotation-schedule.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  service.domino:
+    canonical_id: service.domino
+    path: concepts/service.domino.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895586'
+        page_title: 🔐 JWK Token Rotation Plan for Domino - Production Readiness
+        page_version: 16
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895586/JWK+Token+Rotation+Plan+for+Domino+-+Production+Readiness
+        role: primary
+  service.partner-benefit-subscriber:
+    canonical_id: service.partner-benefit-subscriber
+    path: concepts/service.partner-benefit-subscriber.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: primary
+      - platform: confluence
+        space_key: BD
+        page_id: '96895323'
+        page_title: partner-benefit-subscriber
+        page_version: 36
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895323/partner-benefit-subscriber
+        role: primary
+  service.partner-fulfillment-data:
+    canonical_id: service.partner-fulfillment-data
+    path: concepts/service.partner-fulfillment-data.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: primary
+      - platform: confluence
+        space_key: BD
+        page_id: '96895306'
+        page_title: partner-fulfillment-api
+        page_version: 25
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895306/partner-fulfillment-api
+        role: primary
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  service.partner-fulfillment-domain:
+    canonical_id: service.partner-fulfillment-domain
+    path: concepts/service.partner-fulfillment-domain.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: primary
+      - platform: confluence
+        space_key: BD
+        page_id: '96895306'
+        page_title: partner-fulfillment-api
+        page_version: 25
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895306/partner-fulfillment-api
+        role: primary
+      - platform: confluence
+        space_key: BD
+        page_id: '96895597'
+        page_title: Domino Dev Ops
+        page_version: 1
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+        role: primary
+  service.partner-fulfillment-orchestrator:
+    canonical_id: service.partner-fulfillment-orchestrator
+    path: concepts/service.partner-fulfillment-orchestrator.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895288'
+        page_title: Support Dashboard And Monotoring
+        page_version: 11
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+        role: primary
+      - platform: confluence
+        space_key: BD
+        page_id: '96895308'
+        page_title: partner-fulfillment-orchestrator
+        page_version: 26
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895308/partner-fulfillment-orchestrator
+        role: primary
+  service.token-data-service:
+    canonical_id: service.token-data-service
+    path: concepts/service.token-data-service.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895304'
+        page_title: Domino Key Rotation
+        page_version: 6
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+        role: primary
+  test_plan.partner-benefit-subscriber-failover:
+    canonical_id: test_plan.partner-benefit-subscriber-failover
+    path: concepts/test_plan.partner-benefit-subscriber-failover.ok.md
+    sources:
+      confluence:
+      - platform: confluence
+        space_key: BD
+        page_id: '96895323'
+        page_title: partner-benefit-subscriber
+        page_version: 36
+        url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895323/partner-benefit-subscriber
+        role: primary

@@ -1,0 +1,454 @@
+schema_version: okf.version_index.v1
+domain: '96894978'
+generated:
+  generated_at: '2026-09-02T22:59:53.882801Z'
+  generator: okf-confluence
+  source: compiled_from_concept_files
+  source_hash: null
+sources:
+  confluence:
+    '1247871291':
+      platform: confluence
+      space_key: BD
+      page_title: Disney Redemption File Upload - Automation Approach
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/1247871291/Disney+Redemption+File+Upload+-+Automation+Approach
+      last_seen_version: 13
+      last_processed_version: 13
+      last_processed_at: '2026-09-02T21:47:02.697844Z'
+      source_fingerprint: sha256:570244aed22cd0e5b0df4274685f53303a700b2c8f816e1a2eb97b74538c9cb5
+    '96895288':
+      platform: confluence
+      space_key: BD
+      page_title: Support Dashboard And Monotoring
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+      last_seen_version: 11
+      last_processed_version: 11
+      last_processed_at: '2026-09-02T21:43:32.448585Z'
+      source_fingerprint: sha256:4c76e0e56608fba5a09159ffb0002b9addbd182714e0463bdf969bbb14b139fe
+    '96895304':
+      platform: confluence
+      space_key: BD
+      page_title: Domino Key Rotation
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+      last_seen_version: 6
+      last_processed_version: 6
+      last_processed_at: '2026-09-02T21:46:12.446562Z'
+      source_fingerprint: sha256:fe2f7b4a22d9e4da4a5f708ed7723de80de0722ffeaf66e747c58a32a990b2d3
+    '96895306':
+      platform: confluence
+      space_key: BD
+      page_title: partner-fulfillment-api
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895306/partner-fulfillment-api
+      last_seen_version: 25
+      last_processed_version: 25
+      last_processed_at: '2026-09-02T21:53:11.899909Z'
+      source_fingerprint: sha256:c8129005ebc2e33082137a5a349b8aa1848154383ba6357227af16dffc6ed6f5
+    '96895308':
+      platform: confluence
+      space_key: BD
+      page_title: partner-fulfillment-orchestrator
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895308/partner-fulfillment-orchestrator
+      last_seen_version: 26
+      last_processed_version: 26
+      last_processed_at: '2026-09-02T21:48:10.235999Z'
+      source_fingerprint: sha256:84cd8600b3d3de284374333134e62dd3f382c3ab9eb34aadeef28fdefed7df4e
+    '96895323':
+      platform: confluence
+      space_key: BD
+      page_title: partner-benefit-subscriber
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895323/partner-benefit-subscriber
+      last_seen_version: 36
+      last_processed_version: 36
+      last_processed_at: '2026-09-02T21:52:19.304243Z'
+      source_fingerprint: sha256:f21d75aec5b053da0a89458d825c04ed2f150745dd0316f5319309c09b11aefb
+    '96895386':
+      platform: confluence
+      space_key: BD
+      page_title: ReconciliationBatchJob(Monthly and Daily)
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895386/ReconciliationBatchJob+Monthly+and+Daily
+      last_seen_version: 7
+      last_processed_version: 7
+      last_processed_at: '2026-09-02T21:54:30.711690Z'
+      source_fingerprint: sha256:f56ed336e304c537a0901a3624759ab81694d3e98d87e0667c229f3cf11e9935
+    '96895502':
+      platform: confluence
+      space_key: BD
+      page_title: Domino Batch Jobs
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+      last_seen_version: 5
+      last_processed_version: 5
+      last_processed_at: '2026-09-02T21:43:51.829954Z'
+      source_fingerprint: sha256:5aafb95de13440810b4635266a7cad31c1f213da3e0e7df183c13a267f74abfd
+    '96895586':
+      platform: confluence
+      space_key: BD
+      page_title: 🔐 JWK Token Rotation Plan for Domino - Production Readiness
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895586/JWK+Token+Rotation+Plan+for+Domino+-+Production+Readiness
+      last_seen_version: 16
+      last_processed_version: 16
+      last_processed_at: '2026-09-02T21:51:50.552789Z'
+      source_fingerprint: sha256:3d278f38d9d1594f4cdc607c368855ee3cb9e24e879caaf34d479665c5bb200a
+    '96895597':
+      platform: confluence
+      space_key: BD
+      page_title: Domino Dev Ops
+      url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+      last_seen_version: 1
+      last_processed_version: 1
+      last_processed_at: '2026-09-02T21:48:48.988264Z'
+      source_fingerprint: sha256:5a8179232919c69a90e0901aa0abfa065a04dcf69d0f482e627915a0923a4d58
+concepts:
+  api_route.create-fulfillment:
+    canonical_id: api_route.create-fulfillment
+    path: concepts/api_route.create-fulfillment.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:43:32.448585Z'
+    source_fingerprint: sha256:4c76e0e56608fba5a09159ffb0002b9addbd182714e0463bdf969bbb14b139fe
+  api_route.disney-daily-execute-previous-day:
+    canonical_id: api_route.disney-daily-execute-previous-day
+    path: concepts/api_route.disney-daily-execute-previous-day.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:43:51.829954Z'
+    source_fingerprint: sha256:5aafb95de13440810b4635266a7cad31c1f213da3e0e7df183c13a267f74abfd
+  api_route.disney-daily-execute-specific-file:
+    canonical_id: api_route.disney-daily-execute-specific-file
+    path: concepts/api_route.disney-daily-execute-specific-file.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:44:11.146123Z'
+    source_fingerprint: sha256:87f72edb59a110351c539548573c2e62a294fc16a6fed911c77b8f438f1c07f7
+  api_route.disney-monthly-execute-reconciliation:
+    canonical_id: api_route.disney-monthly-execute-reconciliation
+    path: concepts/api_route.disney-monthly-execute-reconciliation.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:44:27.483409Z'
+    source_fingerprint: sha256:df924133ebc5b90ba61f294fd82b334c045dd01483f97e14e1340f1227804b09
+  api_route.disney-monthly-execute-responder:
+    canonical_id: api_route.disney-monthly-execute-responder
+    path: concepts/api_route.disney-monthly-execute-responder.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:44:45.696166Z'
+    source_fingerprint: sha256:01ae7fa37a4fabd807140ce9557093387464ee47a08000d3be8a0a3d6dcbbf5d
+  api_route.disney-monthly-list-files:
+    canonical_id: api_route.disney-monthly-list-files
+    path: concepts/api_route.disney-monthly-list-files.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:45:03.861411Z'
+    source_fingerprint: sha256:c5659deec3f068206973251da64ad1fe67b2315be33ec5591cae66a2f6d8062d
+  api_route.disney-monthly-retrieve-hulu-responder:
+    canonical_id: api_route.disney-monthly-retrieve-hulu-responder
+    path: concepts/api_route.disney-monthly-retrieve-hulu-responder.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:45:21.520876Z'
+    source_fingerprint: sha256:78011f9655a01a1c0def3418f7121ef09fcfd7ab9d97666d9d268af4cbbe3234
+  api_route.disney-monthly-retrieve-reconciliation:
+    canonical_id: api_route.disney-monthly-retrieve-reconciliation
+    path: concepts/api_route.disney-monthly-retrieve-reconciliation.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:45:39.008655Z'
+    source_fingerprint: sha256:3a21efdfc12c54b37bb0f1784628ad40e44115aeb6d393bba110dec4c59ddc59
+  api_route.fetch-fulfillments:
+    canonical_id: api_route.fetch-fulfillments
+    path: concepts/api_route.fetch-fulfillments.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:45:54.408534Z'
+    source_fingerprint: sha256:b56c800f1c25bab751297d3e181fbbf6ef63e7a84b1c72f19ed2f96560422cba
+  api_route.get-jwks:
+    canonical_id: api_route.get-jwks
+    path: concepts/api_route.get-jwks.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:46:12.446562Z'
+    source_fingerprint: sha256:fe2f7b4a22d9e4da4a5f708ed7723de80de0722ffeaf66e747c58a32a990b2d3
+  api_route.sign-token:
+    canonical_id: api_route.sign-token
+    path: concepts/api_route.sign-token.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:46:29.771947Z'
+    source_fingerprint: sha256:99a5823ebc0461e04404aa33f63f88ba58b6f75fb62ea18c66078d4c0f403025
+  api_route.update-fulfillment:
+    canonical_id: api_route.update-fulfillment
+    path: concepts/api_route.update-fulfillment.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:46:45.766970Z'
+    source_fingerprint: sha256:5e3106de0ffcbeda6a90905515233bdb35abd162c793481e0f30f942d1aecbda
+  architecture.disney-redemption-file-automation:
+    canonical_id: architecture.disney-redemption-file-automation
+    path: concepts/architecture.disney-redemption-file-automation.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:47:02.697844Z'
+    source_fingerprint: sha256:570244aed22cd0e5b0df4274685f53303a700b2c8f816e1a2eb97b74538c9cb5
+  architecture.domino-key-rotation:
+    canonical_id: architecture.domino-key-rotation
+    path: concepts/architecture.domino-key-rotation.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:47:39.806815Z'
+    source_fingerprint: sha256:6a10e73caa9356d25de19152ee54b230e46c9f63fc7ee79885995ad85b9fd260
+  architecture.pfo-regional-deployment:
+    canonical_id: architecture.pfo-regional-deployment
+    path: concepts/architecture.pfo-regional-deployment.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:48:10.235999Z'
+    source_fingerprint: sha256:84cd8600b3d3de284374333134e62dd3f382c3ab9eb34aadeef28fdefed7df4e
+  contract.disney-redemption-csv-format:
+    canonical_id: contract.disney-redemption-csv-format
+    path: concepts/contract.disney-redemption-csv-format.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:48:30.580901Z'
+    source_fingerprint: sha256:5d6ac51d11f9035299d4953e18b84fa4fc9c0fd8bbf008bda414a1396685f3bd
+  dashboard.daily-reconciliation-dynatrace:
+    canonical_id: dashboard.daily-reconciliation-dynatrace
+    path: concepts/dashboard.daily-reconciliation-dynatrace.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:48:48.988264Z'
+    source_fingerprint: sha256:5a8179232919c69a90e0901aa0abfa065a04dcf69d0f482e627915a0923a4d58
+  dashboard.partner-fulfillment-data-dynatrace:
+    canonical_id: dashboard.partner-fulfillment-data-dynatrace
+    path: concepts/dashboard.partner-fulfillment-data-dynatrace.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:49:05.292511Z'
+    source_fingerprint: sha256:3ed8011ffd20b8331a9ba06c0059be8439ad5155e6194b8039488d512400d635
+  dashboard.partner-fulfillment-domain-dynatrace:
+    canonical_id: dashboard.partner-fulfillment-domain-dynatrace
+    path: concepts/dashboard.partner-fulfillment-domain-dynatrace.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:49:21.393684Z'
+    source_fingerprint: sha256:275d9a0518c1d083bf6d1da701560a16111a33c262b42f159d049656a0681be6
+  dashboard.partner-fulfillment-orchestrator-dynatrace:
+    canonical_id: dashboard.partner-fulfillment-orchestrator-dynatrace
+    path: concepts/dashboard.partner-fulfillment-orchestrator-dynatrace.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:49:36.073607Z'
+    source_fingerprint: sha256:c9431a48671ac2e1f013e31a5e37f6bc056a0d71dfdcce25803f4a7f721eca63
+  dashboard.production-awareness-datadog:
+    canonical_id: dashboard.production-awareness-datadog
+    path: concepts/dashboard.production-awareness-datadog.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:49:51.880807Z'
+    source_fingerprint: sha256:252935e55b1cc80bb2c8d047cbf41faca0dbb6b68eeab4e0947a18f13388d7ec
+  dashboard.signup-datadog:
+    canonical_id: dashboard.signup-datadog
+    path: concepts/dashboard.signup-datadog.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:50:07.360418Z'
+    source_fingerprint: sha256:d8db5b6a6202b6bb27bf91071228d1360407c23371a4de86c383526ce58a3989
+  data_model.jwks-response:
+    canonical_id: data_model.jwks-response
+    path: concepts/data_model.jwks-response.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:50:28.423361Z'
+    source_fingerprint: sha256:1ee144b508b2ab63e3113b5b00fb24001b1b4fe8da0b6c84cfa176eace1db9af
+  data_model.key-cache:
+    canonical_id: data_model.key-cache
+    path: concepts/data_model.key-cache.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:50:46.671375Z'
+    source_fingerprint: sha256:42d75d640c45f6fb8ed8c09c3b94293d362c007ff47039ed4a95670fbcf1715d
+  data_model.rsa-key-pair:
+    canonical_id: data_model.rsa-key-pair
+    path: concepts/data_model.rsa-key-pair.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:51:02.438323Z'
+    source_fingerprint: sha256:7e0bec5fa802d2081888b06aadb0113bb5adce5a5689363f754376c9e0c21ec5
+  deployment_process.process-domino-batch-jobs-release:
+    canonical_id: deployment_process.process-domino-batch-jobs-release
+    path: concepts/deployment_process.process-domino-batch-jobs-release.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:51:24.317667Z'
+    source_fingerprint: sha256:30e61de8b090b8ccf7ae55bc731d61239fa906030ca7937ad11dea4385c15286
+  deployment_process.process-domino-jwk-token-rotation:
+    canonical_id: deployment_process.process-domino-jwk-token-rotation
+    path: concepts/deployment_process.process-domino-jwk-token-rotation.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:51:50.552789Z'
+    source_fingerprint: sha256:3d278f38d9d1594f4cdc607c368855ee3cb9e24e879caaf34d479665c5bb200a
+  deployment_process.process-partner-benefit-subscriber-recovery:
+    canonical_id: deployment_process.process-partner-benefit-subscriber-recovery
+    path: concepts/deployment_process.process-partner-benefit-subscriber-recovery.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:52:19.304243Z'
+    source_fingerprint: sha256:f21d75aec5b053da0a89458d825c04ed2f150745dd0316f5319309c09b11aefb
+  disaster_recovery_plan.plan-partner-benefit-subscriber:
+    canonical_id: disaster_recovery_plan.plan-partner-benefit-subscriber
+    path: concepts/disaster_recovery_plan.plan-partner-benefit-subscriber.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:52:42.593103Z'
+    source_fingerprint: sha256:8cd9700df8793fc3c182bae35e4a8d1a7d7f065f079e592c6224a81d22103ef9
+  disaster_recovery_plan.plan-partner-fulfillment-services:
+    canonical_id: disaster_recovery_plan.plan-partner-fulfillment-services
+    path: concepts/disaster_recovery_plan.plan-partner-fulfillment-services.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:53:11.899909Z'
+    source_fingerprint: sha256:c8129005ebc2e33082137a5a349b8aa1848154383ba6357227af16dffc6ed6f5
+  disaster_recovery_plan.plan-pfa-regional-failover:
+    canonical_id: disaster_recovery_plan.plan-pfa-regional-failover
+    path: concepts/disaster_recovery_plan.plan-pfa-regional-failover.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:53:38.216583Z'
+    source_fingerprint: sha256:3f1ae141fb738e62e0f931d41340e819f1394b5620cd7b1f2a4a62b4ce8a3908
+  disaster_recovery_plan.plan-pfo-regional-failover:
+    canonical_id: disaster_recovery_plan.plan-pfo-regional-failover
+    path: concepts/disaster_recovery_plan.plan-pfo-regional-failover.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:54:04.802485Z'
+    source_fingerprint: sha256:433cb03116ac36f721efb4ec44f2f7b427e89a43bd0a27a0c0de9ce3d1febb23
+  disaster_recovery_plan.plan-reconciliation-batch-jobs-dr:
+    canonical_id: disaster_recovery_plan.plan-reconciliation-batch-jobs-dr
+    path: concepts/disaster_recovery_plan.plan-reconciliation-batch-jobs-dr.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:54:30.711690Z'
+    source_fingerprint: sha256:f56ed336e304c537a0901a3624759ab81694d3e98d87e0667c229f3cf11e9935
+  external_system.aks-dev-cluster:
+    canonical_id: external_system.aks-dev-cluster
+    path: concepts/external_system.aks-dev-cluster.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:54:49.147349Z'
+    source_fingerprint: sha256:72a393ac948e57f326cd2f4a090e219fe64ab2e0aa3fc76859fe9c1db13048be
+  external_system.aks-prod-cluster:
+    canonical_id: external_system.aks-prod-cluster
+    path: concepts/external_system.aks-prod-cluster.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:55:11.378181Z'
+    source_fingerprint: sha256:b600a23ca4caa45461a69846ead7edc15f8dc5afe7fdc7b1f0ba21625dc8fedf
+  external_system.aks-stage-cluster:
+    canonical_id: external_system.aks-stage-cluster
+    path: concepts/external_system.aks-stage-cluster.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:55:27.974524Z'
+    source_fingerprint: sha256:d060eb9e7bfa89486ddf7a23c67e02d2de3300b526b93b5f00c973b2b621ee02
+  external_system.azure-key-vault:
+    canonical_id: external_system.azure-key-vault
+    path: concepts/external_system.azure-key-vault.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:55:43.350763Z'
+    source_fingerprint: sha256:95e3d0abdee7b91c7a03945580220e57568df4b9e9a6a57eb44fc227213736c4
+  external_system.disney:
+    canonical_id: external_system.disney
+    path: concepts/external_system.disney.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:56:00.773939Z'
+    source_fingerprint: sha256:f90a437fa6372083cb5d4301b6c846a60b96fcd90d8f5f2cd8910cbd6a900354
+  external_system.rancher-central-nonprod:
+    canonical_id: external_system.rancher-central-nonprod
+    path: concepts/external_system.rancher-central-nonprod.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:56:17.077390Z'
+    source_fingerprint: sha256:41d5115560318caf3c96d8af8413adc11eb7c0d419f32155232f8ada3c053972
+  external_system.rancher-central-prod:
+    canonical_id: external_system.rancher-central-prod
+    path: concepts/external_system.rancher-central-prod.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:56:37.702365Z'
+    source_fingerprint: sha256:7950b21e69dc2d2d057c34d63d4548b7f4203ea1c491bb71539c346d2e8ee9da
+  job.disney-redemption-cron-job:
+    canonical_id: job.disney-redemption-cron-job
+    path: concepts/job.disney-redemption-cron-job.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:56:51.853721Z'
+    source_fingerprint: sha256:d7af97072404ca4d56cefa9f8cf305a4da6a15c72551543ec0a5703fe5677f6b
+  job.domino-monthly-hulu-responder-batch:
+    canonical_id: job.domino-monthly-hulu-responder-batch
+    path: concepts/job.domino-monthly-hulu-responder-batch.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:57:09.814326Z'
+    source_fingerprint: sha256:3f70c79656e923449e95c487cf2518aa585d86b4ab08a046d74dcdb31e9cb944
+  job.domino-monthly-reconciliation-batch:
+    canonical_id: job.domino-monthly-reconciliation-batch
+    path: concepts/job.domino-monthly-reconciliation-batch.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:57:29.811901Z'
+    source_fingerprint: sha256:b524313f8ecb012a8f05806bdc3489d571a0af4941df2811c395065705dca2c7
+  job.domino-nightly-daf-responder-batch:
+    canonical_id: job.domino-nightly-daf-responder-batch
+    path: concepts/job.domino-nightly-daf-responder-batch.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:57:48.213414Z'
+    source_fingerprint: sha256:64299ca7ca8684569734879d8231468e0f8432edbe1624e6e10c4c021be3dc20
+  job.key-vault-manager:
+    canonical_id: job.key-vault-manager
+    path: concepts/job.key-vault-manager.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:58:06.157029Z'
+    source_fingerprint: sha256:6fe98c516234457276919382ef6bd1907dab09f8211373912c1e61c133f73609
+  job.partnerfulfillmentdailyreconciliationbatchjob:
+    canonical_id: job.partnerfulfillmentdailyreconciliationbatchjob
+    path: concepts/job.partnerfulfillmentdailyreconciliationbatchjob.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:58:23.496132Z'
+    source_fingerprint: sha256:4d1197967c1af85225ff810a759feb88c196014ca7633d967fb5ee7303b38212
+  job.partnerfulfillmentmonthlyreconciliationbatchjob:
+    canonical_id: job.partnerfulfillmentmonthlyreconciliationbatchjob
+    path: concepts/job.partnerfulfillmentmonthlyreconciliationbatchjob.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:58:40.371473Z'
+    source_fingerprint: sha256:5d652534ccc2478466b206dbfb3d0ef6e5efef8a614f5c9c9f9b5af996cfc031
+  runbook.disney-redemption-automation-setup:
+    canonical_id: runbook.disney-redemption-automation-setup
+    path: concepts/runbook.disney-redemption-automation-setup.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:58:57.429532Z'
+    source_fingerprint: sha256:80ab39c643184eba39ff243c8d5b63cbdbe95825c7c0dccdfbb3bd710e4e7598
+  runbook.jarvis-profile-alias-lookup:
+    canonical_id: runbook.jarvis-profile-alias-lookup
+    path: concepts/runbook.jarvis-profile-alias-lookup.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:59:24.231367Z'
+    source_fingerprint: sha256:b0b8036cfa271a3649160ae731a01e5a45f17074e5fc0dab1914b4bcd5420d47
+  security_control.control-disney-redemption-vm-user-restriction:
+    canonical_id: security_control.control-disney-redemption-vm-user-restriction
+    path: concepts/security_control.control-disney-redemption-vm-user-restriction.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:59:38.512687Z'
+    source_fingerprint: sha256:5bd0a21b5d392d7ffd442b6cdc94f96d15297855e39a3012c458b7a218b2e25e
+  security_control.control-domino-jwk-token-rotation-config:
+    canonical_id: security_control.control-domino-jwk-token-rotation-config
+    path: concepts/security_control.control-domino-jwk-token-rotation-config.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T21:59:54.738910Z'
+    source_fingerprint: sha256:c6e9ced473611fe889aadbe4960f5ade78bfaf905a4a970788c7b185d7e9d22f
+  security_control.control-key-rotation-schedule:
+    canonical_id: security_control.control-key-rotation-schedule
+    path: concepts/security_control.control-key-rotation-schedule.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T22:00:14.340156Z'
+    source_fingerprint: sha256:dc036d5447c1ff91ae25c3ce13d8f9cd07fa620e94f4530efc599bc258481ae6
+  service.domino:
+    canonical_id: service.domino
+    path: concepts/service.domino.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T22:00:32.251576Z'
+    source_fingerprint: sha256:42d9c932c613136d09e24db289a7da2aa896fedb877d09936660cb7489a643a1
+  service.partner-benefit-subscriber:
+    canonical_id: service.partner-benefit-subscriber
+    path: concepts/service.partner-benefit-subscriber.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T22:00:50.147975Z'
+    source_fingerprint: sha256:2e19d43bc95633b22c26890a3fb28b3daab738534eae99fa6265d2d925ac561b
+  service.partner-fulfillment-data:
+    canonical_id: service.partner-fulfillment-data
+    path: concepts/service.partner-fulfillment-data.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T22:01:16.508528Z'
+    source_fingerprint: sha256:bf202d1ef1aaaaf2d866e6e02f3fe3e54bd33acc9d8cd9fbf0cacb6c05837860
+  service.partner-fulfillment-domain:
+    canonical_id: service.partner-fulfillment-domain
+    path: concepts/service.partner-fulfillment-domain.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T22:01:39.762475Z'
+    source_fingerprint: sha256:1973ff8f20311391542c40f34ac19ed7a5d007a53630431d55a0080303e4e365
+  service.partner-fulfillment-orchestrator:
+    canonical_id: service.partner-fulfillment-orchestrator
+    path: concepts/service.partner-fulfillment-orchestrator.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T22:02:02.283542Z'
+    source_fingerprint: sha256:767b9631375d175967daccf8da34c6c23258f094d19417c8fca1cd44c075c24e
+  service.token-data-service:
+    canonical_id: service.token-data-service
+    path: concepts/service.token-data-service.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T22:02:27.128053Z'
+    source_fingerprint: sha256:a344453a5377e94c6f165725fb6bf79d940ccaaa087ed748089aab373bb86fdb
+  test_plan.partner-benefit-subscriber-failover:
+    canonical_id: test_plan.partner-benefit-subscriber-failover
+    path: concepts/test_plan.partner-benefit-subscriber-failover.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-02T22:02:44.500239Z'
+    source_fingerprint: sha256:7e025c02363e633f158069705ec113c4e71c720172717ca605ac734b9b0da9b6

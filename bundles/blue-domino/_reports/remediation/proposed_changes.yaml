@@ -1,0 +1,1261 @@
+schema_version: okf.remediation_proposals.v1
+generated_at: '2026-09-02T22:58:06.416503+00:00'
+proposed_change_count: 30
+confluence_quality_findings: []
+proposed_changes:
+- change_id: rc-0001-createsecret
+  action: create_concept
+  canonical_id: deployment.createsecret
+  candidate_id: missing-deployment.createsecret
+  confidence: 0.65
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 1
+    source_files:
+    - .harness/Services/createsecret.yaml
+  rationale: Deployment facts exist for service createSecret; no corresponding deployment
+    concept in OKF index
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.createsecret
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment concept for the createSecret service.
+
+
+      ## Related Concepts
+
+
+      - [[service.createsecret]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0002-default
+  action: create_concept
+  canonical_id: deployment.default
+  candidate_id: missing-deployment.default
+  confidence: 0.68
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 6
+    source_files:
+    - ValueYAMLOverrides/default/defaultOverrideValues.yaml
+    - ValueYAMLOverrides/default/defaultCronOverrideToEnableVolumeMountForYcqlCert.yaml
+    ingress_paths:
+    - /.well-known/heartbeat
+  rationale: Multiple deployment facts and value overrides exist for default service;
+    ingress path documented
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.default
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Default deployment configuration.
+
+
+      ## Ingress
+
+
+      - `/.well-known/heartbeat` — health check endpoint
+
+
+      ## Related Concepts
+
+
+      - [[service.default]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0003-digital-sync-cdc
+  action: create_concept
+  canonical_id: deployment.digital-sync-cdc
+  candidate_id: missing-deployment.digital-sync-cdc
+  confidence: 0.72
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 10
+    source_files:
+    - .harness/Overrides/ServiceSpecific/digital-sync-cdc/aks_cx_encust_01_prod_centralus_encust_prod_ecDigitalSyncCdc.yaml
+    - .harness/Overrides/ServiceSpecific/digital-sync-cdc/aks_cx_encust_01_stage_centralus_encust_stage_ecDigitalSyncCdc.yaml
+    namespaces:
+    - <+infra.namespace>
+  rationale: Rich deployment facts across prod/stage environments with environment-specific
+    overrides
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.digital-sync-cdc
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment configuration for digital-sync-cdc service.
+
+
+      ## Environments
+
+
+      - Production (centralus, eastus2)
+
+      - Stage (centralus, eastus2)
+
+      - Dev (centralus)
+
+
+      ## Related Concepts
+
+
+      - [[service.digital-sync-cdc]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0004-disney-daily-reconciliation
+  action: create_concept
+  canonical_id: deployment.disney-daily-reconciliation
+  candidate_id: missing-deployment.disney-daily-reconciliation
+  confidence: 0.68
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 2
+    source_files:
+    - .harness/Overrides/ServiceSpecific/disney-daily-reconciliation/aks_cx_encust_01_prod_centralus_encust_prod_disneydailyreconciliationbatchjob.yaml
+    - .harness/Overrides/ServiceSpecific/disney-daily-reconciliation/aks_cx_encust_01_stage_centralus_encust_stage_disneydailyreconciliationbatchjob.yaml
+  rationale: Deployment overrides exist for prod and stage environments
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.disney-daily-reconciliation
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment configuration for Disney daily reconciliation.
+
+
+      ## Environments
+
+
+      - Production (centralus)
+
+      - Stage (centralus)
+
+
+      ## Related Concepts
+
+
+      - [[service.disney-daily-reconciliation]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0005-disney-daily-reconciliation-batch-job
+  action: create_concept
+  canonical_id: deployment.disney-daily-reconciliation-batch-job
+  candidate_id: missing-deployment.disney-daily-reconciliation-batch-job
+  confidence: 0.65
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 1
+    source_files:
+    - .harness/Services/disneydailyreconciliationbatchjob.yaml
+  rationale: Service definition exists; no corresponding deployment concept
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.disney-daily-reconciliation-batch-job
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment configuration for Disney daily reconciliation batch job.
+
+
+      ## Related Concepts
+
+
+      - [[service.disney-daily-reconciliation-batch-job]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0006-disney-monthly-reconciliation
+  action: create_concept
+  canonical_id: deployment.disney-monthly-reconciliation
+  candidate_id: missing-deployment.disney-monthly-reconciliation
+  confidence: 0.68
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 2
+    source_files:
+    - .harness/Overrides/ServiceSpecific/disney-monthly-reconciliation/aks_cx_encust_01_prod_centralus_encust_prod_disneymonthlyreconciliationbatchjob.yaml
+    - .harness/Overrides/ServiceSpecific/disney-monthly-reconciliation/aks_cx_encust_01_stage_centralus_encust_stage_disneymonthlyreconciliationbatchjob.yaml
+  rationale: Deployment overrides exist for prod and stage environments
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.disney-monthly-reconciliation
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment configuration for Disney monthly reconciliation.
+
+
+      ## Environments
+
+
+      - Production (centralus)
+
+      - Stage (centralus)
+
+
+      ## Related Concepts
+
+
+      - [[service.disney-monthly-reconciliation]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0007-disney-monthly-reconciliation-batch-job
+  action: create_concept
+  canonical_id: deployment.disney-monthly-reconciliation-batch-job
+  candidate_id: missing-deployment.disney-monthly-reconciliation-batch-job
+  confidence: 0.65
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 1
+    source_files:
+    - .harness/Services/disneymonthlyreconciliationbatchjob.yaml
+  rationale: Service definition exists; no corresponding deployment concept
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.disney-monthly-reconciliation-batch-job
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment configuration for Disney monthly reconciliation batch job.
+
+
+      ## Related Concepts
+
+
+      - [[service.disney-monthly-reconciliation-batch-job]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0008-ec
+  action: create_concept
+  canonical_id: deployment.ec
+  candidate_id: missing-deployment.ec
+  confidence: 0.62
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 1
+    source_files:
+    - .harness/InputSets/ec/commonOneStageInputSet.yaml
+  rationale: Input set configuration exists for ec; no deployment concept
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.ec
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment configuration for ec service.
+
+
+      ## Related Concepts
+
+
+      - [[service.ec]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0009-ec-cp-forward-sync
+  action: create_concept
+  canonical_id: deployment.ec-cp-forward-sync
+  candidate_id: missing-deployment.ec-cp-forward-sync
+  confidence: 0.65
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 1
+    source_files:
+    - .harness/Services/Ec-Cp-Forward-Sync/eccpforwardsync.yaml
+  rationale: Service definition exists; no corresponding deployment concept
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.ec-cp-forward-sync
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment configuration for EC-CP forward sync service.
+
+
+      ## Related Concepts
+
+
+      - [[service.ec-cp-forward-sync]]'
+  batch_id: remediation-batch-0003
+- change_id: rc-0010-ec-cp-sync
+  action: create_concept
+  canonical_id: deployment.ec-cp-sync
+  candidate_id: missing-deployment.ec-cp-sync
+  confidence: 0.65
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    fact_count: 1
+    source_files:
+    - .harness/Pipelines/EC-CP-Sync/eccpeventconsumer.yml
+  rationale: Pipeline configuration exists; no corresponding deployment concept
+  risk: low
+  proposed_concept:
+    frontmatter:
+      canonical_id: deployment.ec-cp-sync
+      concept_type: deployment
+      source: code_comprehension/deployment_ground_truth.json
+      trust: inferred
+      freshness: 2026-09-03
+      lifecycle: active
+    body: 'Deployment configuration for EC-CP sync service.
+
+
+      ## Related Concepts
+
+
+      - [[service.ec-cp-sync]]'
+  batch_id: remediation-batch-0003
+- change_id: remediation-batch-0007-001
+  action: create_concept
+  candidate_id: missing-deployment.getting-started-service
+  canonical_id: deployment.getting-started-service
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=getting-started-service]
+    fact_count: 3
+  rationale: Deployment runtime facts extracted from ValueYAMLOverrides across dev,
+    stage, prod environments. No OKF deployment concept exists but service.getting-started-service
+    is documented.
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.getting-started-service
+      concept_type: deployment
+      title: Getting Started Service Deployment
+      description: Deployment configuration and runtime behavior for getting-started-service
+      related_concepts:
+      - service.getting-started-service
+      sources:
+      - ValueYAMLOverrides/getting-started-service/app-demo-dev-values.yaml
+      - ValueYAMLOverrides/getting-started-service/app-demo-prod-values.yaml
+      - ValueYAMLOverrides/getting-started-service/app-demo-stage-values.yaml
+    body: '## Overview
+
+      Deployment of `getting-started-service` across development, staging, and production
+      environments.
+
+
+      ## Deployment Environments
+
+      - **Development**: Kubernetes namespace `<+infra.namespace>`
+
+      - **Staging**: Kubernetes namespace `<+infra.namespace>`
+
+      - **Production**: Kubernetes namespace `<+infra.namespace>`
+
+
+      ## Ingress Configuration
+
+      - **Ingress Path**: `/`
+
+
+      ## Related Concepts
+
+      - [[service.getting-started-service]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-002
+  action: create_concept
+  candidate_id: missing-deployment.harness
+  canonical_id: deployment.harness
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=.harness]
+    fact_count: 8
+  rationale: Harness platform configuration extracted from 8 YAML artifacts in .harness
+    directory. Represents CI/CD pipeline definitions, not a traditional service deployment.
+  risk: medium
+  artifact:
+    frontmatter:
+      canonical_id: deployment.harness
+      concept_type: deployment
+      title: Harness CI/CD Platform Configuration
+      description: Harness pipeline and deployment orchestration configuration
+      related_concepts:
+      - service.harness
+      sources:
+      - .harness/cpcoreapps_C.yaml
+      - .harness/cpcoreappsdeploy.yaml
+      - .harness/cpcoreappsdevdeplo.yaml
+      - .harness/cpcoreappsstagedeploy_Clone.yaml
+    body: '## Overview
+
+      Harness CI/CD platform configuration for core application pipeline deployments.
+
+
+      ## Pipeline Artifacts
+
+      - Application pipelines: `cpcoreapps*`
+
+      - Deployment stages: dev, stage, prod
+
+      - Input sets for execution parameterization
+
+
+      ## Configuration Files
+
+      - Primary deployment pipeline: `cpcoreappsdeploy.yaml`
+
+      - Dev-specific pipeline: `cpcoreappsdevdeplo.yaml`
+
+      - Stage-specific pipeline: `cpcoreappsstagedeploy_Clone.yaml`
+
+
+      ## Related Concepts
+
+      - [[service.harness]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-003
+  action: create_concept
+  candidate_id: missing-deployment.harness-example
+  canonical_id: deployment.harness-example
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=harness-example]
+    fact_count: 2
+  rationale: Example/template deployment configuration using Harness value overrides.
+    Low fact count suggests minimal or reference deployment.
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.harness-example
+      concept_type: deployment
+      title: Harness Example Deployment
+      description: Example or template deployment configuration for Harness-managed
+        services
+      related_concepts:
+      - service.harness-example
+      sources:
+      - ValueYAMLOverrides/caspian-error-reprocessing/values.yaml
+      - ValueYAMLOverrides/caspian-groups-sync/values.yaml
+    body: '## Overview
+
+      Example deployment configuration demonstrating Harness value override patterns.
+
+
+      ## Template Services
+
+      - Caspian error reprocessing
+
+      - Caspian groups synchronization
+
+
+      ## Configuration Pattern
+
+      Uses standardized ValueYAMLOverrides structure for Kubernetes deployments via
+      Harness.
+
+
+      ## Related Concepts
+
+      - [[service.harness-example]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-004
+  action: create_concept
+  candidate_id: missing-deployment.health-monitor
+  canonical_id: deployment.health-monitor
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=health-monitor]
+    fact_count: 6
+  rationale: Health monitoring service deployed across multiple AKS clusters and regions
+    (prod centralus, prod eastus2, stage centralus, stage eastus2).
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.health-monitor
+      concept_type: deployment
+      title: Health Monitor Service Deployment
+      description: Health monitoring service deployment across regional AKS clusters
+      related_concepts:
+      - service.health-monitor
+      sources:
+      - .harness/Overrides/ServiceSpecific/health-monitor/aks_cx_encust_01_prod_centralus_encust_prod_healthmonitor.yaml
+      - .harness/Overrides/ServiceSpecific/health-monitor/aks_cx_encust_01_prod_eastus2_encust_prod_healthmonitor.yaml
+      - .harness/Overrides/ServiceSpecific/health-monitor/aks_cx_encust_01_stage_centralus_encust_stage_healthmonitor.yaml
+      - .harness/Overrides/ServiceSpecific/health-monitor/aks_cx_encust_01_stage_eastus2_encust_stage_healthmonitor.yaml
+      - .harness/Services/healthmonitor.yaml
+      - ValueYAMLOverrides/health-monitor/healthMonitorValueOverrides.yaml
+    body: '## Overview
+
+      Health Monitor service provides system health monitoring and observability across
+      production and staging environments.
+
+
+      ## Regional Deployment
+
+      - **Production Central US**: AKS cluster `aks_cx_encust_01`
+
+      - **Production East US 2**: AKS cluster `aks_cx_encust_01`
+
+      - **Staging Central US**: AKS cluster `aks_cx_encust_01`
+
+      - **Staging East US 2**: AKS cluster `aks_cx_encust_01`
+
+
+      ## Service Definition
+
+      - Harness service: `healthmonitor.yaml`
+
+      - Value overrides: `healthMonitorValueOverrides.yaml`
+
+
+      ## Related Concepts
+
+      - [[service.health-monitor]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-005
+  action: create_concept
+  candidate_id: missing-deployment.loyalty-bulkload-sync
+  canonical_id: deployment.loyalty-bulkload-sync
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=loyalty-bulkload-sync]
+    fact_count: 10
+  rationale: Loyalty bulk load synchronization service with comprehensive regional
+    deployment configuration across dev, stage, prod environments.
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.loyalty-bulkload-sync
+      concept_type: deployment
+      title: Loyalty Bulk Load Sync Service Deployment
+      description: Deployment of loyalty program bulk load synchronization service
+        across environments
+      related_concepts:
+      - service.loyalty-bulkload-sync
+      sources:
+      - .harness/Overrides/ServiceSpecific/loyalty-bulkload-sync/aks_cx_encust_01_prod_centralus_encust_prod_ecLoyaltyBulkLoadSync.yaml
+      - .harness/Overrides/ServiceSpecific/loyalty-bulkload-sync/aks_cx_encust_01_prod_eastus2_encust_prod_ecLoyaltyBulkLoadSync.yaml
+      - .harness/Overrides/ServiceSpecific/loyalty-bulkload-sync/aks_cx_encust_01_stage_centralus_encust_stage_ecLoyaltyBulkLoadSync.yaml
+      - ValueYAMLOverrides/loyalty-bulkload-sync/loyaltyBulkloadSyncProdCentralOverridesValue.yaml
+    body: '## Overview
+
+      Loyalty bulk load synchronization service manages large-scale loyalty program
+      data synchronization operations.
+
+
+      ## Deployment Topology
+
+      - **Production Central US**: `aks_cx_encust_01`, namespace `<+infra.namespace>`
+
+      - **Production East US 2**: `aks_cx_encust_01`, namespace `<+infra.namespace>`
+
+      - **Staging Central US**: `aks_cx_encust_01`, namespace `<+infra.namespace>`
+
+      - **Staging East US 2**: `aks_cx_encust_01`, namespace `<+infra.namespace>`
+
+      - **Development Central US**: `aks_cx_shared_01`, namespace `<+infra.namespace>`
+
+
+      ## Configuration
+
+      - Region-specific value overrides for prod central and east, stage central
+
+      - Kubernetes service spec: `ecLoyaltyBulkLoadSync`
+
+
+      ## Related Concepts
+
+      - [[service.loyalty-bulkload-sync]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-006
+  action: create_concept
+  candidate_id: missing-deployment.loyalty-sync
+  canonical_id: deployment.loyalty-sync
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=loyalty-sync]
+    fact_count: 10
+  rationale: Loyalty synchronization service with multi-region deployment across prod,
+    stage, and dev environments with environment-specific configurations.
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.loyalty-sync
+      concept_type: deployment
+      title: Loyalty Sync Service Deployment
+      description: Deployment of loyalty program synchronization service across regional
+        environments
+      related_concepts:
+      - service.loyalty-sync
+      sources:
+      - .harness/Overrides/ServiceSpecific/loyalty-sync/aks_cx_encust_01_prod_centralus_encust_prod_ecLoyaltySync.yaml
+      - .harness/Overrides/ServiceSpecific/loyalty-sync/aks_cx_encust_01_prod_eastus2_encust_prod_ecLoyaltySync.yaml
+      - .harness/Overrides/ServiceSpecific/loyalty-sync/aks_cx_encust_01_stage_centralus_encust_stage_ecLoyaltySync.yaml
+      - ValueYAMLOverrides/loyalty-sync/loyaltySyncProdCentralValuesOverrideValue.yaml
+    body: '## Overview
+
+      Loyalty synchronization service maintains data consistency for loyalty program
+      information across systems.
+
+
+      ## Deployment Topology
+
+      - **Production Central US**: `aks_cx_encust_01`, namespace `<+infra.namespace>`
+
+      - **Production East US 2**: `aks_cx_encust_01`, namespace `<+infra.namespace>`
+
+      - **Staging Central US**: `aks_cx_encust_01`, namespace `<+infra.namespace>`
+
+      - **Staging East US 2**: `aks_cx_encust_01`, namespace `<+infra.namespace>`
+
+      - **Development Central US**: `aks_cx_shared_01`, namespace `<+infra.namespace>`
+
+
+      ## Configuration
+
+      - Region-specific value overrides for production and staging environments
+
+      - Kubernetes service spec: `ecLoyaltySync`
+
+
+      ## Related Concepts
+
+      - [[service.loyalty-sync]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-007
+  action: create_concept
+  candidate_id: missing-deployment.node-harness-cli-gh-action
+  canonical_id: deployment.node-harness-cli-gh-action
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=Node Harness CLI GH Action]
+    fact_count: 1
+  rationale: GitHub Actions workflow for triggering Harness pipelines via Node.js
+    CLI. Single source file confirms existence but minimal deployment surface.
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.node-harness-cli-gh-action
+      concept_type: deployment
+      title: Node Harness CLI GitHub Action
+      description: GitHub Actions deployment trigger using Node.js Harness CLI
+      related_concepts:
+      - service.node-harness-cli-gh-action
+      sources:
+      - .github/workflows/trigger_harness_pipeline.yaml
+    body: '## Overview
+
+      GitHub Actions workflow automation for triggering Harness CI/CD pipelines from
+      version control events.
+
+
+      ## Technology Stack
+
+      - **Runtime**: Node.js
+
+      - **Orchestration**: GitHub Actions
+
+      - **Target**: Harness CI/CD platform
+
+
+      ## Workflow File
+
+      - Location: `.github/workflows/trigger_harness_pipeline.yaml`
+
+      - Triggered by: GitHub events (push, pull_request, workflow_dispatch)
+
+      - Action: Invokes Harness pipeline via CLI
+
+
+      ## Related Concepts
+
+      - [[service.node-harness-cli-gh-action]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-008
+  action: create_concept
+  candidate_id: missing-deployment.pa-cp-dlq-consumer-cron
+  canonical_id: deployment.pa-cp-dlq-consumer-cron
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=pa-cp-dlq-consumer-cron]
+    fact_count: 1
+  rationale: Partner Account to Customer Platform dead-letter queue consumer cron
+    job. Single Harness service definition found.
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.pa-cp-dlq-consumer-cron
+      concept_type: deployment
+      title: PA-CP DLQ Consumer Cron Deployment
+      description: Partner Account to Customer Platform dead-letter queue consumer
+        cron job deployment
+      related_concepts:
+      - service.pa-cp-dlq-consumer-cron
+      sources:
+      - .harness/Services/PaCpEventConsumer/pacpforwardsyncdlqconsumer.yaml
+    body: '## Overview
+
+      Cron job that consumes dead-letter queue messages between Partner Account and
+      Customer Platform systems.
+
+
+      ## Purpose
+
+      Processes failed events and retry logic for forward synchronization operations.
+
+
+      ## Deployment
+
+      - **Service Type**: Kubernetes cron job
+
+      - **Harness Service**: `pacpforwardsyncdlqconsumer`
+
+      - **Consumer Group**: PA-CP forward sync DLQ
+
+
+      ## Related Concepts
+
+      - [[service.pa-cp-dlq-consumer-cron]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-009
+  action: create_concept
+  candidate_id: missing-deployment.pa-cp-event-consumer-cron
+  canonical_id: deployment.pa-cp-event-consumer-cron
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=pa-cp-event-consumer-cron]
+    fact_count: 1
+  rationale: Partner Account to Customer Platform event consumer cron job. Single
+    Harness service definition found.
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.pa-cp-event-consumer-cron
+      concept_type: deployment
+      title: PA-CP Event Consumer Cron Deployment
+      description: Partner Account to Customer Platform event consumer cron job deployment
+      related_concepts:
+      - service.pa-cp-event-consumer-cron
+      sources:
+      - .harness/Services/PaCpEventConsumer/pacpeventconsumercron.yaml
+    body: '## Overview
+
+      Cron job that consumes event messages between Partner Account and Customer Platform
+      systems.
+
+
+      ## Purpose
+
+      Processes events from PA system to maintain synchronization with CP platform.
+
+
+      ## Deployment
+
+      - **Service Type**: Kubernetes cron job
+
+      - **Harness Service**: `pacpeventconsumercron`
+
+      - **Consumer Group**: PA-CP event consumption
+
+
+      ## Related Concepts
+
+      - [[service.pa-cp-event-consumer-cron]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: remediation-batch-0007-010
+  action: create_concept
+  candidate_id: missing-deployment.pa-cp-forward-sync
+  canonical_id: deployment.pa-cp-forward-sync
+  concept_type: deployment
+  confidence: medium
+  evidence:
+  - artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=pa-cp-forward-sync]
+    fact_count: 1
+  rationale: Partner Account to Customer Platform forward synchronization service.
+    Single Harness service definition found.
+  risk: low
+  artifact:
+    frontmatter:
+      canonical_id: deployment.pa-cp-forward-sync
+      concept_type: deployment
+      title: PA-CP Forward Sync Service Deployment
+      description: Partner Account to Customer Platform forward synchronization service
+        deployment
+      related_concepts:
+      - service.pa-cp-forward-sync
+      sources:
+      - .harness/Services/PaCpForwardSync/pacpforwardsync.yaml
+    body: '## Overview
+
+      Service that synchronizes Partner Account data forward to the Customer Platform.
+
+
+      ## Purpose
+
+      Maintains consistency of PA entities and events in the CP system via forward
+      synchronization.
+
+
+      ## Deployment
+
+      - **Service Type**: Kubernetes deployment
+
+      - **Harness Service**: `pacpforwardsync`
+
+      - **Data Flow**: Partner Account → Customer Platform
+
+
+      ## Related Concepts
+
+      - [[service.pa-cp-forward-sync]]
+
+      '
+  batch_id: remediation-batch-0007
+- change_id: create-deployment-personcore
+  action: create_concept
+  canonical_id: deployment.personcore
+  concept_type: deployment
+  confidence: Medium
+  candidate_id: missing-deployment.personcore
+  evidence:
+    artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=personCore]
+    source_files:
+    - .harness/cp_person_core_dev_test.yaml
+  rationale: Deployment ground truth for personCore service exists but no deployment
+    concept documented. Links to existing service.personcore concept.
+  risk: Low - Creating new documentation concept with no breaking changes. Adds clarity
+    to deployment topology.
+  frontmatter:
+    name: personcore
+    description: Deployment configuration for personCore service
+    type: deployment
+    source: deployment_ground_truth.json
+    lifecycle: active
+  body: '## Related Service
+
+    - [[service.personcore]]
+
+
+    ## Configuration Files
+
+    - `.harness/cp_person_core_dev_test.yaml`
+
+    '
+  batch_id: remediation-batch-0009
+- change_id: create-deployment-preferences-core
+  action: create_concept
+  canonical_id: deployment.preferences-core
+  concept_type: deployment
+  confidence: Medium
+  candidate_id: missing-deployment.preferences-core
+  evidence:
+    artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=preferences-core]
+    supporting_fact_count: 12
+    source_files:
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_encust_01_prod_centralus_encust_prod_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_encust_01_prod_eastus2_encust_prod_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_encust_01_stage_centralus_encust_stage_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_encust_01_stage_eastus2_encust_stage_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aks_cx_shared_01_dev_centralus_encust_dev_preferencesCore.yaml
+    - .harness/Overrides/ServiceSpecific/preferences-core/aksencusttest_preferencesCore.yaml
+    - ValueYAMLOverrides/preferences-core/devValuesOverride.yaml
+    - ValueYAMLOverrides/preferences-core/preferencesCoreProdCentralOverridesValue.yaml
+  rationale: Multiple deployment configuration files exist for preferences-core across
+    dev, stage, and prod environments with regional overrides. Deployment concept
+    needed to document this topology.
+  risk: Low - Creates documentation for existing infrastructure. No impact on running
+    systems.
+  frontmatter:
+    name: preferences-core
+    description: Multi-region deployment configuration for preferences-core service
+      across dev, stage, and prod environments
+    type: deployment
+    source: deployment_ground_truth.json
+    lifecycle: active
+  body: '## Related Service
+
+    - [[service.preferences-core]]
+
+
+    ## Environments
+
+    - Development (centralus)
+
+    - Development (eastus2)
+
+    - Stage (centralus)
+
+    - Stage (eastus2)
+
+    - Production (centralus)
+
+    - Production (eastus2)
+
+    - Test (AKS encusttest)
+
+
+    ## Configuration Files
+
+    - `.harness/Overrides/ServiceSpecific/preferences-core/*.yaml`
+
+    - `ValueYAMLOverrides/preferences-core/*.yaml`
+
+    '
+  batch_id: remediation-batch-0009
+- change_id: create-deployment-servicespecific
+  action: create_concept
+  canonical_id: deployment.servicespecific
+  concept_type: deployment
+  confidence: Medium
+  candidate_id: missing-deployment.servicespecific
+  evidence:
+    artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=ServiceSpecific]
+    supporting_fact_count: 2
+    source_files:
+    - .harness/Overrides/ServiceSpecific/aks_cx_encust_01_stage_centralus_encust_stage_cpperformancetest.yaml
+    - .harness/Overrides/ServiceSpecific/aks_cx_encust_01_stage_eastus2_encust_stage_cpperformancetest.yaml
+  rationale: ServiceSpecific is a deployment pattern with stage environment overrides.
+    Deployment concept documents this infrastructure pattern.
+  risk: Low - Documents existing deployment infrastructure pattern.
+  frontmatter:
+    name: servicespecific
+    description: ServiceSpecific deployment configuration pattern for stage environment
+    type: deployment
+    source: deployment_ground_truth.json
+    lifecycle: active
+  body: '## Environments
+
+    - Stage (centralus)
+
+    - Stage (eastus2)
+
+
+    ## Configuration Files
+
+    - `.harness/Overrides/ServiceSpecific/*.yaml`
+
+    '
+  batch_id: remediation-batch-0009
+- change_id: create-deployment-shopper-profiles-core
+  action: create_concept
+  canonical_id: deployment.shopper-profiles-core
+  concept_type: deployment
+  confidence: Medium
+  candidate_id: missing-deployment.shopper-profiles-core
+  evidence:
+    artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=shopper-profiles-core]
+    supporting_fact_count: 11
+    source_files:
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_encust_01_prod_centralus_encust_prod_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_encust_01_prod_eastus2_encust_prod_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_encust_01_stage_centralus_encust_stage_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_encust_01_stage_eastus2_encust_stage_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aks_cx_shared_01_dev_centralus_encust_dev_shopperProfilesCore.yaml
+    - .harness/Overrides/ServiceSpecific/shopper-profiles-core/aksencusttest_shopperProfilesCore.yaml
+    - ValueYAMLOverrides/shopper-profiles-core/shopperProfileCoreProdCentralOverridesValue.yaml
+    - ValueYAMLOverrides/shopper-profiles-core/shopperProfileCoreProdEastOverrideValues.yaml
+  rationale: Multi-environment, multi-region deployment configuration for shopper-profiles-core.
+    Comprehensive deployment concept needed to document production, stage, and dev
+    topology.
+  risk: Low - Documents existing production infrastructure.
+  frontmatter:
+    name: shopper-profiles-core
+    description: Multi-region deployment configuration for shopper-profiles-core across
+      dev, stage, and prod environments
+    type: deployment
+    source: deployment_ground_truth.json
+    lifecycle: active
+  body: '## Related Service
+
+    - [[service.shopper-profiles-core]]
+
+
+    ## Environments
+
+    - Development (centralus)
+
+    - Development (eastus2)
+
+    - Stage (centralus)
+
+    - Stage (eastus2)
+
+    - Production (centralus)
+
+    - Production (eastus2)
+
+    - Test (AKS encusttest)
+
+
+    ## Configuration Files
+
+    - `.harness/Overrides/ServiceSpecific/shopper-profiles-core/*.yaml`
+
+    - `ValueYAMLOverrides/shopper-profiles-core/*.yaml`
+
+    '
+  batch_id: remediation-batch-0009
+- change_id: create-deployment-sync-harness-ng-token
+  action: create_concept
+  canonical_id: deployment.sync-harness-ng-token
+  concept_type: deployment
+  confidence: Medium
+  candidate_id: missing-deployment.sync-harness-ng-token
+  evidence:
+    artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=Sync Harness NG Token]
+    supporting_fact_count: 1
+    source_files:
+    - .github/workflows/sync_harness_token.yaml
+  rationale: GitHub workflow-based deployment process for Harness token synchronization.
+    Deployment concept documents this automation process.
+  risk: Low - Documents existing CI/CD automation workflow.
+  frontmatter:
+    name: sync-harness-ng-token
+    description: GitHub Actions workflow for synchronizing Harness NG tokens
+    type: deployment
+    source: deployment_ground_truth.json
+    lifecycle: active
+  body: '## Deployment Type
+
+    GitHub Actions Workflow
+
+
+    ## Workflow File
+
+    - `.github/workflows/sync_harness_token.yaml`
+
+
+    ## Purpose
+
+    Automated synchronization of Harness Next Generation tokens
+
+    '
+  batch_id: remediation-batch-0009
+- change_id: create-deployment-update-configs-for-performance-test-core-services
+  action: create_concept
+  canonical_id: deployment.update-configs-for-performance-test-core-services
+  concept_type: deployment
+  confidence: Medium
+  candidate_id: missing-deployment.update-configs-for-performance-test-core-services
+  evidence:
+    artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=Update configs for performance test (core services)]
+    supporting_fact_count: 1
+    source_files:
+    - .github/workflows/update_configs_for_ec_performance_test.yaml
+  rationale: GitHub workflow that manages performance test configuration for core
+    services. Deployment concept documents this testing infrastructure automation.
+  risk: Low - Documents existing performance test automation.
+  frontmatter:
+    name: update-configs-for-performance-test-core-services
+    description: GitHub Actions workflow for updating performance test configurations
+      for core services
+    type: deployment
+    source: deployment_ground_truth.json
+    lifecycle: active
+  body: '## Deployment Type
+
+    GitHub Actions Workflow
+
+
+    ## Workflow File
+
+    - `.github/workflows/update_configs_for_ec_performance_test.yaml`
+
+
+    ## Purpose
+
+    Update configurations for enterprise customer performance testing of core services
+
+    '
+  batch_id: remediation-batch-0009
+- change_id: create-deployment-valkyrie
+  action: create_concept
+  canonical_id: deployment.valkyrie
+  concept_type: deployment
+  confidence: Medium
+  candidate_id: missing-deployment.valkyrie
+  evidence:
+    artifact: code_comprehension/deployment_ground_truth.json
+    pointer: facts[service_name=valkyrie]
+    supporting_fact_count: 6
+    source_files:
+    - .harness/Services/Caspian/valkyrie.yaml
+    - ValueYAMLOverrides/valkyrie/templates/deployment.yaml
+    - ValueYAMLOverrides/valkyrie/templates/ingress.yaml
+    - ValueYAMLOverrides/valkyrie/templates/service.yaml
+    - ValueYAMLOverrides/valkyrie/valuesoverrideValues.yaml
+    - ValueYAMLOverrides/valkyrie/valuesoverridethanosValuesValkyrie.yaml
+  rationale: Valkyrie Kubernetes service with Helm value overrides and networking
+    configuration. Deployment concept documents this microservice deployment topology.
+  risk: Low - Documents existing Kubernetes deployment.
+  frontmatter:
+    name: valkyrie
+    description: Kubernetes deployment configuration for valkyrie service with Helm
+      value overrides
+    type: deployment
+    source: deployment_ground_truth.json
+    lifecycle: active
+  body: '## Service Name
+
+    valkyrie
+
+
+    ## Harness Configuration
+
+    - `.harness/Services/Caspian/valkyrie.yaml`
+
+
+    ## Helm Value Overrides
+
+    - `ValueYAMLOverrides/valkyrie/valuesoverrideValues.yaml`
+
+    - `ValueYAMLOverrides/valkyrie/valuesoverridethanosValuesValkyrie.yaml`
+
+
+    ## Kubernetes Templates
+
+    - `ValueYAMLOverrides/valkyrie/templates/deployment.yaml`
+
+    - `ValueYAMLOverrides/valkyrie/templates/service.yaml`
+
+    - `ValueYAMLOverrides/valkyrie/templates/ingress.yaml`
+
+    '
+  batch_id: remediation-batch-0009
+- change_id: add-relationship-harness-config-depends-on-benefit-subscriber
+  action: update_concept
+  canonical_id: repository.harness-ng-config-kps-encust
+  confidence: Medium
+  candidate_id: missing-relationship.harness-ng-config-kps-encust.depends_on.partner-benefit-subscriber
+  evidence:
+    artifact: code_comprehension/codebase_ast_map.json
+    pointer: cross_repo_dependencies[harness-ng-config-kps-encust->partner-benefit-subscriber]
+    supporting_edge_count: 1
+  rationale: Cross-repository dependency detected. Harness configuration repository
+    has configuration for partner-benefit-subscriber service. Relationship edge documents
+    this dependency.
+  risk: Low - Adds relationship documentation without modifying code or configuration.
+  body_change_type: append_relationship
+  relationship:
+    type: depends_on
+    target: repository.partner-benefit-subscriber
+    description: Harness deployment configurations for partner-benefit-subscriber
+      service
+  batch_id: remediation-batch-0009
+- change_id: add-relationship-harness-config-depends-on-pfo
+  action: update_concept
+  canonical_id: repository.harness-ng-config-kps-encust
+  confidence: Medium
+  candidate_id: missing-relationship.harness-ng-config-kps-encust.depends_on.partner-fulfillment-orchestrator
+  evidence:
+    artifact: code_comprehension/codebase_ast_map.json
+    pointer: cross_repo_dependencies[harness-ng-config-kps-encust->partner-fulfillment-orchestrator]
+    supporting_edge_count: 8
+  rationale: Multiple cross-repo dependencies detected (edge count 8). Harness configuration
+    manages deployment of partner-fulfillment-orchestrator across multiple environments
+    and regions.
+  risk: Low - Adds relationship documentation.
+  body_change_type: append_relationship
+  relationship:
+    type: depends_on
+    target: repository.partner-fulfillment-orchestrator
+    description: Harness deployment configurations for partner-fulfillment-orchestrator
+      across dev, stage, and prod regions
+  batch_id: remediation-batch-0009
+- change_id: add-relationship-harness-config-depends-on-tokenmanager
+  action: update_concept
+  canonical_id: repository.harness-ng-config-kps-encust
+  confidence: Medium
+  candidate_id: missing-relationship.harness-ng-config-kps-encust.depends_on.partner-fulfillment-tokenmanager
+  evidence:
+    artifact: code_comprehension/codebase_ast_map.json
+    pointer: cross_repo_dependencies[harness-ng-config-kps-encust->partner-fulfillment-tokenmanager]
+    supporting_edge_count: 6
+  rationale: Six cross-repo dependency edges detected. Harness configuration contains
+    deployment configuration for partner-fulfillment-tokenmanager service.
+  risk: Low - Adds relationship documentation.
+  body_change_type: append_relationship
+  relationship:
+    type: depends_on
+    target: repository.partner-fulfillment-tokenmanager
+    description: Harness deployment configurations for partner-fulfillment-tokenmanager
+      service
+  batch_id: remediation-batch-0009
+batches:
+- batch_id: remediation-batch-0001
+  candidate_count: 10
+- batch_id: remediation-batch-0002
+  candidate_count: 10
+- batch_id: remediation-batch-0003
+  candidate_count: 10
+- batch_id: remediation-batch-0004
+  candidate_count: 10
+- batch_id: remediation-batch-0005
+  candidate_count: 10
+- batch_id: remediation-batch-0006
+  candidate_count: 10
+- batch_id: remediation-batch-0007
+  candidate_count: 10
+- batch_id: remediation-batch-0008
+  candidate_count: 10
+- batch_id: remediation-batch-0009
+  candidate_count: 10
+- batch_id: remediation-batch-0010
+  candidate_count: 10
+- batch_id: remediation-batch-0011
+  candidate_count: 3

@@ -1,0 +1,306 @@
+schema_version: okf.concept_type_registry.v1
+registry:
+  id: enterprise-concept-types
+  description: null
+  extensibility_policy: registry_controlled
+concept_types:
+  domain:
+    category: domain
+    schema_ref: shared/schemas/concept/domain.v1.json
+    description: Root concept representing a business domain or bounded context.
+    required_body_sections:
+    - Summary
+    - Scope
+    - Contained Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  service:
+    category: application
+    schema_ref: shared/schemas/concept/service.v1.json
+    description: Application service, microservice, monolith, or deployable component.
+    required_body_sections:
+    - Summary
+    - Responsibilities
+    - Interfaces
+    - Dependencies
+    - Operations
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  job:
+    category: application
+    schema_ref: shared/schemas/concept/job.v1.json
+    description: Batch job, scheduled task, worker, reconciliation process, or background
+      processor.
+    required_body_sections:
+    - Summary
+    - Schedule
+    - Inputs
+    - Outputs
+    - Failure Handling
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  api_route:
+    category: interface
+    schema_ref: shared/schemas/concept/api_route.v1.json
+    description: HTTP or RPC endpoint exposed or consumed by a system.
+    required_body_sections:
+    - Summary
+    - Endpoint
+    - Request
+    - Response
+    - Errors
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  event_topic:
+    category: interface
+    schema_ref: shared/schemas/concept/event_topic.v1.json
+    description: Kafka topic, pub/sub topic, event stream, or asynchronous message
+      channel.
+    required_body_sections:
+    - Summary
+    - Topic
+    - Producers
+    - Consumers
+    - Payload
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  repository:
+    category: code
+    schema_ref: shared/schemas/concept/repository.v1.json
+    description: Source code repository or deployable codebase.
+    required_body_sections:
+    - Summary
+    - Repository
+    - Build And Deployment
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  external_system:
+    category: external
+    schema_ref: shared/schemas/concept/external_system.v1.json
+    description: External service, SaaS platform, host, third-party dependency, or
+      enterprise platform.
+    required_body_sections:
+    - Summary
+    - Usage
+    - Access
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  database_table:
+    category: data
+    schema_ref: shared/schemas/concept/database_table.v1.json
+    description: Database table or collection.
+    required_body_sections:
+    - Summary
+    - Schema
+    - Ownership
+    - Consumers
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  database_schema:
+    category: data
+    schema_ref: shared/schemas/concept/database_schema.v1.json
+    description: Logical database schema or namespace.
+    required_body_sections:
+    - Summary
+    - Tables
+    - Ownership
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  data_model:
+    category: data
+    schema_ref: shared/schemas/concept/data_model.v1.json
+    description: Data structure, payload schema, DTO, contract object, or business
+      data model.
+    required_body_sections:
+    - Summary
+    - Fields
+    - Validation Rules
+    - Used By
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  contract:
+    category: data
+    schema_ref: shared/schemas/concept/contract.v1.json
+    description: External/internal integration contract, file contract, API contract,
+      or message contract.
+    required_body_sections:
+    - Summary
+    - Contract Shape
+    - Producer
+    - Consumer
+    - Validation Rules
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  runbook:
+    category: operations
+    schema_ref: shared/schemas/concept/runbook.v1.json
+    description: Operational procedure, support playbook, or manual/automated workflow.
+    required_body_sections:
+    - Summary
+    - When To Use
+    - Procedure
+    - Validation
+    - Escalation
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  disaster_recovery_plan:
+    category: operations
+    schema_ref: shared/schemas/concept/disaster_recovery_plan.v1.json
+    description: Disaster recovery, failover, rollback, resiliency, or regional recovery
+      plan.
+    required_body_sections:
+    - Summary
+    - Scope
+    - Failure Scenarios
+    - Recovery Procedure
+    - Validation
+    - Escalation
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  architecture:
+    category: architecture
+    schema_ref: shared/schemas/concept/architecture.v1.json
+    description: Architecture overview, system design, flow, diagram, or design narrative.
+    required_body_sections:
+    - Summary
+    - Context
+    - Components
+    - Flow
+    - Decisions
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  decision:
+    category: architecture
+    schema_ref: shared/schemas/concept/decision.v1.json
+    description: Architecture decision record, technical decision, tradeoff, or rationale.
+    required_body_sections:
+    - Summary
+    - Context
+    - Decision
+    - Consequences
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  test_plan:
+    category: quality
+    schema_ref: shared/schemas/concept/test_plan.v1.json
+    description: Testing strategy, QA plan, validation approach, or test execution
+      guidance.
+    required_body_sections:
+    - Summary
+    - Scope
+    - Test Scenarios
+    - Validation
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  deployment_process:
+    category: operations
+    schema_ref: shared/schemas/concept/deployment_process.v1.json
+    description: Deployment workflow, release process, rollout, rollback, or promotion
+      procedure.
+    required_body_sections:
+    - Summary
+    - Preconditions
+    - Deployment Steps
+    - Rollback
+    - Validation
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  security_control:
+    category: security
+    schema_ref: shared/schemas/concept/security_control.v1.json
+    description: Security requirement, control, auth pattern, token handling, or compliance
+      constraint.
+    required_body_sections:
+    - Summary
+    - Control
+    - Scope
+    - Validation
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  dashboard:
+    category: observability
+    schema_ref: shared/schemas/concept/dashboard.v1.json
+    description: Monitoring dashboard, metrics view, or observability surface.
+    required_body_sections:
+    - Summary
+    - Metrics
+    - Links
+    - Usage
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  alert:
+    category: observability
+    schema_ref: shared/schemas/concept/alert.v1.json
+    description: Alert, monitor, threshold, notification rule, or incident trigger.
+    required_body_sections:
+    - Summary
+    - Condition
+    - Severity
+    - Response
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  slo:
+    category: reliability
+    schema_ref: shared/schemas/concept/slo.v1.json
+    description: Service level objective, SLI, SLA, or reliability target.
+    required_body_sections:
+    - Summary
+    - Objective
+    - Measurement
+    - Threshold
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []
+  team:
+    category: ownership
+    schema_ref: shared/schemas/concept/team.v1.json
+    description: Owning team, support group, product team, or escalation owner.
+    required_body_sections:
+    - Summary
+    - Responsibilities
+    - Owned Concepts
+    - Contact
+    - Related Concepts
+    allowed_relationships:
+      outgoing: []
+      incoming: []

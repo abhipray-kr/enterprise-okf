@@ -1,0 +1,140 @@
+schema_version: okf.remediation_batches.v1
+generated_at: '2026-09-02T22:51:43.885201+00:00'
+batch_count: 11
+batches:
+- batch_id: remediation-batch-0001
+  candidate_count: 10
+  candidate_ids:
+  - coverage-weakness.scip-failures
+  - missing-deployment.call-sync-harness-ng-token
+  - missing-deployment.caspian
+  - missing-deployment.caspian-alert-configs
+  - missing-deployment.caspian-error-reprocessing
+  - missing-deployment.caspian-groups-sync
+  - missing-deployment.caspian-mq-consumer
+  - missing-deployment.caspiangroupsreversesync
+  - missing-deployment.caspianpreferencesreversesync
+  - missing-deployment.certificate-management-service-helm
+- batch_id: remediation-batch-0002
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.cg-cp-dlq-consumer-cron
+  - missing-deployment.cg-cp-event-consumer-cron
+  - missing-deployment.cg-cp-forward-sync
+  - missing-deployment.cg-cp-forward-sync-event-consumer
+  - missing-deployment.common-go-alert-rules
+  - missing-deployment.cp-operational-event-processor
+  - missing-deployment.cp-performance-test
+  - missing-deployment.cp-secure-accounts
+  - missing-deployment.cp-secure-accounts-platform
+  - missing-deployment.create-secret
+- batch_id: remediation-batch-0003
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.createsecret
+  - missing-deployment.default
+  - missing-deployment.digital-sync-cdc
+  - missing-deployment.disney-daily-reconciliation
+  - missing-deployment.disney-daily-reconciliation-batch-job
+  - missing-deployment.disney-monthly-reconciliation
+  - missing-deployment.disney-monthly-reconciliation-batch-job
+  - missing-deployment.ec
+  - missing-deployment.ec-cp-forward-sync
+  - missing-deployment.ec-cp-sync
+- batch_id: remediation-batch-0004
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.ec-digital-sync-cdc
+  - missing-deployment.ec-forward-sync-reprocessing
+  - missing-deployment.ec-jarvis
+  - missing-deployment.ec-loyalty-bulk-load-sync
+  - missing-deployment.ec-loyalty-sync
+  - missing-deployment.ec-mapping-service
+  - missing-deployment.ec-mapping-services
+  - missing-deployment.ec-orchestrator
+  - missing-deployment.ec-performance-test
+  - missing-deployment.ec-person-core
+- batch_id: remediation-batch-0005
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.ec-persons-consumer
+  - missing-deployment.ec-persons-consumer-cron
+  - missing-deployment.ec-persons-dlq-consumer
+  - missing-deployment.ec-preferences-consumer
+  - missing-deployment.ec-preferences-consumer-cron
+  - missing-deployment.ec-preferences-core
+  - missing-deployment.ec-preferences-dlq-consumer
+  - missing-deployment.ec-script
+  - missing-deployment.ec-shopper-profile-core
+  - missing-deployment.ec-shopper-profiles-consumer
+- batch_id: remediation-batch-0006
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.ec-shopper-profiles-consumer-cron
+  - missing-deployment.ec-shopper-profiles-dlq-consumer
+  - missing-deployment.ec-utility
+  - missing-deployment.eccpforwardsync
+  - missing-deployment.ecdigitalsynccdc
+  - missing-deployment.ecorchestrator
+  - missing-deployment.ecutility
+  - missing-deployment.encust-alert-configs
+  - missing-deployment.encust-thesaurus-alert-configs
+  - missing-deployment.external-secret-service
+- batch_id: remediation-batch-0007
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.getting-started-service
+  - missing-deployment.harness
+  - missing-deployment.harness-example
+  - missing-deployment.health-monitor
+  - missing-deployment.loyalty-bulkload-sync
+  - missing-deployment.loyalty-sync
+  - missing-deployment.node-harness-cli-gh-action
+  - missing-deployment.pa-cp-dlq-consumer-cron
+  - missing-deployment.pa-cp-event-consumer-cron
+  - missing-deployment.pa-cp-forward-sync
+- batch_id: remediation-batch-0008
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.pa-cp-forward-sync-event-consumer
+  - missing-deployment.partner-benefit-subscriber
+  - missing-deployment.partner-fulfillment-data
+  - missing-deployment.partner-fulfillment-domain
+  - missing-deployment.partner-fulfillment-orchestrator
+  - missing-deployment.partner-fulfillment-subscriber
+  - missing-deployment.partner-fulfillment-token-manager-cron
+  - missing-deployment.partner-fulfillment-tokenmanager-cron
+  - missing-deployment.person-core
+  - missing-deployment.person-core1
+- batch_id: remediation-batch-0009
+  candidate_count: 10
+  candidate_ids:
+  - missing-deployment.personcore
+  - missing-deployment.preferences-core
+  - missing-deployment.servicespecific
+  - missing-deployment.shopper-profiles-core
+  - missing-deployment.sync-harness-ng-token
+  - missing-deployment.update-configs-for-performance-test-core-services
+  - missing-deployment.valkyrie
+  - missing-relationship.harness-ng-config-kps-encust.depends_on.partner-benefit-subscriber
+  - missing-relationship.harness-ng-config-kps-encust.depends_on.partner-fulfillment-orchestrator
+  - missing-relationship.harness-ng-config-kps-encust.depends_on.partner-fulfillment-tokenmanager
+- batch_id: remediation-batch-0010
+  candidate_count: 10
+  candidate_ids:
+  - missing-relationship.partnerfulfillmentdailyreconciliationbatchjob.depends_on.partner-fulfillment-orchestrator
+  - missing-relationship.partnerfulfillmentmonthlyreconciliationbatchjob.depends_on.partner-fulfillment-orchestrator
+  - missing-repository.harness-ng-config-kps-encust
+  - missing-repository.partner-benefit-subscriber
+  - missing-repository.partner-fulfillment-api
+  - missing-repository.partner-fulfillment-orchestrator
+  - missing-repository.partner-fulfillment-tokenmanager
+  - missing-repository.partnerfulfillmentdailyreconciliationbatchjob
+  - missing-repository.partnerfulfillmentmonthlyreconciliationbatchjob
+  - missing-service.partner-fulfillment-api
+- batch_id: remediation-batch-0011
+  candidate_count: 3
+  candidate_ids:
+  - missing-service.partner-fulfillment-tokenmanager
+  - missing-service.partnerfulfillmentdailyreconciliationbatchjob
+  - missing-service.partnerfulfillmentmonthlyreconciliationbatchjob

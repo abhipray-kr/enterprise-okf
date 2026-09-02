@@ -1,0 +1,229 @@
+schema_version: okf.relationship_type_registry.v1
+registry:
+  id: enterprise-relationship-types
+  description: null
+  extensibility_policy: registry_controlled
+relationship_types:
+  contains:
+    description: Source concept contains or groups target concept.
+    inverse: contained_by
+    allowed_source_categories:
+    - domain
+    - architecture
+    - repository
+    - database_schema
+    allowed_target_categories:
+    - '*'
+  contained_by:
+    description: Source concept is contained by target concept.
+    inverse: contains
+    allowed_source_categories:
+    - '*'
+    allowed_target_categories:
+    - domain
+    - architecture
+    - repository
+    - database_schema
+  implemented_by:
+    description: Source concept is implemented by target repository or code artifact.
+    inverse: implements
+    allowed_source_categories:
+    - application
+    - interface
+    - operations
+    allowed_target_categories:
+    - code
+  implements:
+    description: Source code artifact implements target concept.
+    inverse: implemented_by
+    allowed_source_categories:
+    - code
+    allowed_target_categories:
+    - application
+    - interface
+    - operations
+  exposes:
+    description: Source service/application exposes target interface.
+    inverse: exposed_by
+    allowed_source_categories:
+    - application
+    allowed_target_categories:
+    - interface
+  exposed_by:
+    description: Source interface is exposed by target application.
+    inverse: exposes
+    allowed_source_categories:
+    - interface
+    allowed_target_categories:
+    - application
+  publishes:
+    description: Source application publishes target event topic.
+    inverse: published_by
+    allowed_source_categories:
+    - application
+    allowed_target_categories:
+    - interface
+  consumes:
+    description: Source application/job consumes target event topic or contract.
+    inverse: consumed_by
+    allowed_source_categories:
+    - application
+    allowed_target_categories:
+    - interface
+    - data
+  calls:
+    description: Source concept calls target service or interface synchronously.
+    inverse: called_by
+    allowed_source_categories:
+    - application
+    - interface
+    allowed_target_categories:
+    - application
+    - interface
+    - external
+  depends_on:
+    description: Source concept depends on target concept.
+    inverse: dependency_of
+    allowed_source_categories:
+    - '*'
+    allowed_target_categories:
+    - '*'
+  uses:
+    description: Source concept uses target concept.
+    inverse: used_by
+    allowed_source_categories:
+    - '*'
+    allowed_target_categories:
+    - '*'
+  owns:
+    description: Source owner/team/domain owns target concept.
+    inverse: owned_by
+    allowed_source_categories:
+    - ownership
+    - domain
+    allowed_target_categories:
+    - '*'
+  owned_by:
+    description: Source concept is owned by target owner/team/domain.
+    inverse: owns
+    allowed_source_categories:
+    - '*'
+    allowed_target_categories:
+    - ownership
+    - domain
+  supports:
+    description: Source team or runbook supports target concept.
+    inverse: supported_by
+    allowed_source_categories:
+    - ownership
+    - operations
+    - application
+    allowed_target_categories:
+    - '*'
+  governs:
+    description: Source policy/runbook/control governs target concept.
+    inverse: governed_by
+    allowed_source_categories:
+    - operations
+    - security
+    - architecture
+    - quality
+    - reliability
+    allowed_target_categories:
+    - '*'
+  documents:
+    description: Source concept documents target concept.
+    inverse: documented_by
+    allowed_source_categories:
+    - architecture
+    - operations
+    - quality
+    - security
+    - reliability
+    allowed_target_categories:
+    - '*'
+  has_runbook:
+    description: Source concept has target runbook.
+    inverse: runbook_for
+    allowed_source_categories:
+    - '*'
+    allowed_target_categories:
+    - operations
+  has_disaster_recovery_plan:
+    description: Source concept has target disaster recovery plan.
+    inverse: disaster_recovery_plan_for
+    allowed_source_categories:
+    - '*'
+    allowed_target_categories:
+    - operations
+  has_contract:
+    description: Source concept has target contract.
+    inverse: contract_for
+    allowed_source_categories:
+    - application
+    - interface
+    - external
+    allowed_target_categories:
+    - data
+  has_data_model:
+    description: Source concept has target data model.
+    inverse: data_model_for
+    allowed_source_categories:
+    - application
+    - interface
+    - data
+    allowed_target_categories:
+    - data
+  monitors:
+    description: Source observability concept monitors target concept.
+    inverse: monitored_by
+    allowed_source_categories:
+    - observability
+    allowed_target_categories:
+    - '*'
+  alerts_on:
+    description: Source alert fires on target concept or condition.
+    inverse: has_alert
+    allowed_source_categories:
+    - observability
+    allowed_target_categories:
+    - '*'
+  validates:
+    description: Source test/quality concept validates target concept.
+    inverse: validated_by
+    allowed_source_categories:
+    - quality
+    allowed_target_categories:
+    - '*'
+  measures:
+    description: Source reliability concept measures target concept.
+    inverse: measured_by
+    allowed_source_categories:
+    - reliability
+    allowed_target_categories:
+    - '*'
+  produces:
+    description: Source concept produces target data/interface artifact.
+    inverse: produced_by
+    allowed_source_categories:
+    - application
+    - data
+    allowed_target_categories:
+    - data
+    - interface
+  receives:
+    description: Source concept receives target input, event, or data.
+    inverse: received_by
+    allowed_source_categories:
+    - application
+    - interface
+    allowed_target_categories:
+    - data
+    - interface
+  related_to:
+    description: Weak semantic relationship when no stronger typed relation applies.
+    inverse: related_to
+    allowed_source_categories:
+    - '*'
+    allowed_target_categories:
+    - '*'

@@ -1,0 +1,208 @@
+schema_version: okf.page_concept_index.v1
+domain: '96894978'
+generated:
+  generated_at: '2026-09-02T22:59:53.882801Z'
+  generator: okf-confluence
+  source: compiled_from_concept_files
+  source_hash: null
+pages:
+  '1247871291':
+    platform: confluence
+    space_key: BD
+    page_title: Disney Redemption File Upload - Automation Approach
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/1247871291/Disney+Redemption+File+Upload+-+Automation+Approach
+    last_processed_version: 13
+    concepts:
+    - canonical_id: architecture.disney-redemption-file-automation
+      role: primary
+    - canonical_id: contract.disney-redemption-csv-format
+      role: primary
+    - canonical_id: job.disney-redemption-cron-job
+      role: primary
+    - canonical_id: runbook.disney-redemption-automation-setup
+      role: primary
+    - canonical_id: security_control.control-disney-redemption-vm-user-restriction
+      role: primary
+  '96895288':
+    platform: confluence
+    space_key: BD
+    page_title: Support Dashboard And Monotoring
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895288/Support+Dashboard+And+Monotoring
+    last_processed_version: 11
+    concepts:
+    - canonical_id: api_route.create-fulfillment
+      role: primary
+    - canonical_id: api_route.fetch-fulfillments
+      role: primary
+    - canonical_id: api_route.update-fulfillment
+      role: primary
+    - canonical_id: external_system.disney
+      role: referenced
+    - canonical_id: runbook.jarvis-profile-alias-lookup
+      role: primary
+    - canonical_id: service.partner-benefit-subscriber
+      role: primary
+    - canonical_id: service.partner-fulfillment-data
+      role: primary
+    - canonical_id: service.partner-fulfillment-domain
+      role: primary
+    - canonical_id: service.partner-fulfillment-orchestrator
+      role: primary
+  '96895304':
+    platform: confluence
+    space_key: BD
+    page_title: Domino Key Rotation
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
+    last_processed_version: 6
+    concepts:
+    - canonical_id: api_route.get-jwks
+      role: primary
+    - canonical_id: api_route.sign-token
+      role: primary
+    - canonical_id: architecture.domino-key-rotation
+      role: primary
+    - canonical_id: data_model.jwks-response
+      role: primary
+    - canonical_id: data_model.key-cache
+      role: primary
+    - canonical_id: data_model.rsa-key-pair
+      role: primary
+    - canonical_id: external_system.azure-key-vault
+      role: primary
+    - canonical_id: job.key-vault-manager
+      role: primary
+    - canonical_id: security_control.control-key-rotation-schedule
+      role: primary
+    - canonical_id: service.token-data-service
+      role: primary
+  '96895306':
+    platform: confluence
+    space_key: BD
+    page_title: partner-fulfillment-api
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895306/partner-fulfillment-api
+    last_processed_version: 25
+    concepts:
+    - canonical_id: disaster_recovery_plan.plan-partner-fulfillment-services
+      role: primary
+    - canonical_id: disaster_recovery_plan.plan-pfa-regional-failover
+      role: primary
+    - canonical_id: service.partner-fulfillment-data
+      role: primary
+    - canonical_id: service.partner-fulfillment-domain
+      role: primary
+  '96895308':
+    platform: confluence
+    space_key: BD
+    page_title: partner-fulfillment-orchestrator
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895308/partner-fulfillment-orchestrator
+    last_processed_version: 26
+    concepts:
+    - canonical_id: architecture.pfo-regional-deployment
+      role: primary
+    - canonical_id: disaster_recovery_plan.plan-pfo-regional-failover
+      role: primary
+    - canonical_id: service.partner-fulfillment-orchestrator
+      role: primary
+  '96895323':
+    platform: confluence
+    space_key: BD
+    page_title: partner-benefit-subscriber
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895323/partner-benefit-subscriber
+    last_processed_version: 36
+    concepts:
+    - canonical_id: deployment_process.process-partner-benefit-subscriber-recovery
+      role: primary
+    - canonical_id: disaster_recovery_plan.plan-partner-benefit-subscriber
+      role: primary
+    - canonical_id: service.partner-benefit-subscriber
+      role: primary
+    - canonical_id: test_plan.partner-benefit-subscriber-failover
+      role: primary
+  '96895386':
+    platform: confluence
+    space_key: BD
+    page_title: ReconciliationBatchJob(Monthly and Daily)
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895386/ReconciliationBatchJob+Monthly+and+Daily
+    last_processed_version: 7
+    concepts:
+    - canonical_id: disaster_recovery_plan.plan-reconciliation-batch-jobs-dr
+      role: primary
+    - canonical_id: job.partnerfulfillmentdailyreconciliationbatchjob
+      role: primary
+    - canonical_id: job.partnerfulfillmentmonthlyreconciliationbatchjob
+      role: primary
+  '96895502':
+    platform: confluence
+    space_key: BD
+    page_title: Domino Batch Jobs
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895502/Domino+Batch+Jobs
+    last_processed_version: 5
+    concepts:
+    - canonical_id: api_route.disney-daily-execute-previous-day
+      role: primary
+    - canonical_id: api_route.disney-daily-execute-specific-file
+      role: primary
+    - canonical_id: api_route.disney-monthly-execute-reconciliation
+      role: primary
+    - canonical_id: api_route.disney-monthly-execute-responder
+      role: primary
+    - canonical_id: api_route.disney-monthly-list-files
+      role: primary
+    - canonical_id: api_route.disney-monthly-retrieve-hulu-responder
+      role: primary
+    - canonical_id: api_route.disney-monthly-retrieve-reconciliation
+      role: primary
+    - canonical_id: deployment_process.process-domino-batch-jobs-release
+      role: primary
+    - canonical_id: job.domino-monthly-hulu-responder-batch
+      role: primary
+    - canonical_id: job.domino-monthly-reconciliation-batch
+      role: primary
+    - canonical_id: job.domino-nightly-daf-responder-batch
+      role: primary
+  '96895586':
+    platform: confluence
+    space_key: BD
+    page_title: 🔐 JWK Token Rotation Plan for Domino - Production Readiness
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895586/JWK+Token+Rotation+Plan+for+Domino+-+Production+Readiness
+    last_processed_version: 16
+    concepts:
+    - canonical_id: deployment_process.process-domino-jwk-token-rotation
+      role: primary
+    - canonical_id: security_control.control-domino-jwk-token-rotation-config
+      role: primary
+    - canonical_id: service.domino
+      role: primary
+  '96895597':
+    platform: confluence
+    space_key: BD
+    page_title: Domino Dev Ops
+    url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895597/Domino+Dev+Ops
+    last_processed_version: 1
+    concepts:
+    - canonical_id: dashboard.daily-reconciliation-dynatrace
+      role: primary
+    - canonical_id: dashboard.partner-fulfillment-data-dynatrace
+      role: primary
+    - canonical_id: dashboard.partner-fulfillment-domain-dynatrace
+      role: primary
+    - canonical_id: dashboard.partner-fulfillment-orchestrator-dynatrace
+      role: primary
+    - canonical_id: dashboard.production-awareness-datadog
+      role: primary
+    - canonical_id: dashboard.signup-datadog
+      role: primary
+    - canonical_id: external_system.aks-dev-cluster
+      role: primary
+    - canonical_id: external_system.aks-prod-cluster
+      role: primary
+    - canonical_id: external_system.aks-stage-cluster
+      role: primary
+    - canonical_id: external_system.rancher-central-nonprod
+      role: primary
+    - canonical_id: external_system.rancher-central-prod
+      role: primary
+    - canonical_id: service.partner-fulfillment-data
+      role: primary
+    - canonical_id: service.partner-fulfillment-domain
+      role: primary
