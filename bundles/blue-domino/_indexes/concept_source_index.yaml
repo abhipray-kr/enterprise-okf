@@ -1,7 +1,7 @@
 schema_version: okf.concept_source_index.v1
 domain: '96894978'
 generated:
-  generated_at: '2026-09-02T22:59:53.882801Z'
+  generated_at: '2026-09-03T07:06:20.974479Z'
   generator: okf-confluence
   source: compiled_from_concept_files
   source_hash: null
@@ -306,6 +306,116 @@ concepts:
         page_version: 6
         url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895304/Domino+Key+Rotation
         role: primary
+  deployment_process.createsecret:
+    canonical_id: deployment_process.createsecret
+    path: concepts/deployment_process.createsecret.ok.md
+    sources:
+      confluence: []
+  deployment_process.default:
+    canonical_id: deployment_process.default
+    path: concepts/deployment_process.default.ok.md
+    sources:
+      confluence: []
+  deployment_process.digital-sync-cdc:
+    canonical_id: deployment_process.digital-sync-cdc
+    path: concepts/deployment_process.digital-sync-cdc.ok.md
+    sources:
+      confluence: []
+  deployment_process.disney-daily-reconciliation:
+    canonical_id: deployment_process.disney-daily-reconciliation
+    path: concepts/deployment_process.disney-daily-reconciliation.ok.md
+    sources:
+      confluence: []
+  deployment_process.disney-daily-reconciliation-batch-job:
+    canonical_id: deployment_process.disney-daily-reconciliation-batch-job
+    path: concepts/deployment_process.disney-daily-reconciliation-batch-job.ok.md
+    sources:
+      confluence: []
+  deployment_process.disney-monthly-reconciliation:
+    canonical_id: deployment_process.disney-monthly-reconciliation
+    path: concepts/deployment_process.disney-monthly-reconciliation.ok.md
+    sources:
+      confluence: []
+  deployment_process.disney-monthly-reconciliation-batch-job:
+    canonical_id: deployment_process.disney-monthly-reconciliation-batch-job
+    path: concepts/deployment_process.disney-monthly-reconciliation-batch-job.ok.md
+    sources:
+      confluence: []
+  deployment_process.ec:
+    canonical_id: deployment_process.ec
+    path: concepts/deployment_process.ec.ok.md
+    sources:
+      confluence: []
+  deployment_process.ec-cp-forward-sync:
+    canonical_id: deployment_process.ec-cp-forward-sync
+    path: concepts/deployment_process.ec-cp-forward-sync.ok.md
+    sources:
+      confluence: []
+  deployment_process.ec-cp-sync:
+    canonical_id: deployment_process.ec-cp-sync
+    path: concepts/deployment_process.ec-cp-sync.ok.md
+    sources:
+      confluence: []
+  deployment_process.getting-started-service:
+    canonical_id: deployment_process.getting-started-service
+    path: concepts/deployment_process.getting-started-service.ok.md
+    sources:
+      confluence: []
+  deployment_process.harness:
+    canonical_id: deployment_process.harness
+    path: concepts/deployment_process.harness.ok.md
+    sources:
+      confluence: []
+  deployment_process.harness-example:
+    canonical_id: deployment_process.harness-example
+    path: concepts/deployment_process.harness-example.ok.md
+    sources:
+      confluence: []
+  deployment_process.health-monitor:
+    canonical_id: deployment_process.health-monitor
+    path: concepts/deployment_process.health-monitor.ok.md
+    sources:
+      confluence: []
+  deployment_process.loyalty-bulkload-sync:
+    canonical_id: deployment_process.loyalty-bulkload-sync
+    path: concepts/deployment_process.loyalty-bulkload-sync.ok.md
+    sources:
+      confluence: []
+  deployment_process.loyalty-sync:
+    canonical_id: deployment_process.loyalty-sync
+    path: concepts/deployment_process.loyalty-sync.ok.md
+    sources:
+      confluence: []
+  deployment_process.node-harness-cli-gh-action:
+    canonical_id: deployment_process.node-harness-cli-gh-action
+    path: concepts/deployment_process.node-harness-cli-gh-action.ok.md
+    sources:
+      confluence: []
+  deployment_process.pa-cp-dlq-consumer-cron:
+    canonical_id: deployment_process.pa-cp-dlq-consumer-cron
+    path: concepts/deployment_process.pa-cp-dlq-consumer-cron.ok.md
+    sources:
+      confluence: []
+  deployment_process.pa-cp-event-consumer-cron:
+    canonical_id: deployment_process.pa-cp-event-consumer-cron
+    path: concepts/deployment_process.pa-cp-event-consumer-cron.ok.md
+    sources:
+      confluence: []
+  deployment_process.pa-cp-forward-sync:
+    canonical_id: deployment_process.pa-cp-forward-sync
+    path: concepts/deployment_process.pa-cp-forward-sync.ok.md
+    sources:
+      confluence: []
+  deployment_process.personcore:
+    canonical_id: deployment_process.personcore
+    path: concepts/deployment_process.personcore.ok.md
+    sources:
+      confluence: []
+  deployment_process.preferences-core:
+    canonical_id: deployment_process.preferences-core
+    path: concepts/deployment_process.preferences-core.ok.md
+    sources:
+      confluence: []
   deployment_process.process-domino-batch-jobs-release:
     canonical_id: deployment_process.process-domino-batch-jobs-release
     path: concepts/deployment_process.process-domino-batch-jobs-release.ok.md
@@ -342,6 +452,31 @@ concepts:
         page_version: 36
         url: https://kroger.atlassian.net/wiki/spaces/BD/pages/96895323/partner-benefit-subscriber
         role: primary
+  deployment_process.servicespecific:
+    canonical_id: deployment_process.servicespecific
+    path: concepts/deployment_process.servicespecific.ok.md
+    sources:
+      confluence: []
+  deployment_process.shopper-profiles-core:
+    canonical_id: deployment_process.shopper-profiles-core
+    path: concepts/deployment_process.shopper-profiles-core.ok.md
+    sources:
+      confluence: []
+  deployment_process.sync-harness-ng-token:
+    canonical_id: deployment_process.sync-harness-ng-token
+    path: concepts/deployment_process.sync-harness-ng-token.ok.md
+    sources:
+      confluence: []
+  deployment_process.update-configs-for-performance-test-core-services:
+    canonical_id: deployment_process.update-configs-for-performance-test-core-services
+    path: concepts/deployment_process.update-configs-for-performance-test-core-services.ok.md
+    sources:
+      confluence: []
+  deployment_process.valkyrie:
+    canonical_id: deployment_process.valkyrie
+    path: concepts/deployment_process.valkyrie.ok.md
+    sources:
+      confluence: []
   disaster_recovery_plan.plan-partner-benefit-subscriber:
     canonical_id: disaster_recovery_plan.plan-partner-benefit-subscriber
     path: concepts/disaster_recovery_plan.plan-partner-benefit-subscriber.ok.md

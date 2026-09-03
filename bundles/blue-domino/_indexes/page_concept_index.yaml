@@ -1,7 +1,7 @@
 schema_version: okf.page_concept_index.v1
 domain: '96894978'
 generated:
-  generated_at: '2026-09-02T22:59:53.882801Z'
+  generated_at: '2026-09-03T07:06:20.974479Z'
   generator: okf-confluence
   source: compiled_from_concept_files
   source_hash: null

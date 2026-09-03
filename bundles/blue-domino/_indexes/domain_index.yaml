@@ -1,11 +1,11 @@
 schema_version: okf.domain_index_rollup.v1
 generated:
-  generated_at: '2026-09-02T22:59:53.882015+00:00'
+  generated_at: '2026-09-03T07:06:20.973751+00:00'
   generator: okf-confluence
   source: compiled_from_domain_indexes
 domains:
 - id: '96894978'
   path: .
   index: index.md
-  concept_count: 59
+  concept_count: 86
   edge_count: 155

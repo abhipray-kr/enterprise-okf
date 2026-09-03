@@ -9,14 +9,14 @@ Generated from Confluence and repository evidence.
 | Bundle ID | blue-domino |
 | Source URL | https://kroger.atlassian.net/wiki/spaces/BD/overview?homepageId=96894978 |
 | Run ID | 20260902T212606Z-6e8f88c2 |
-| Generated at | 2026-09-02T22:59:55.210872+00:00 |
-| Concepts | 59 |
+| Generated at | 2026-09-03T07:06:22.893905+00:00 |
+| Concepts | 86 |
 | Graph edges | 155 |
 | Repositories analyzed | 7 |
 | Deployment facts | 317 |
 | QA unresolved | 48 |
 | Remediation proposed | 30 |
-| Remediation applied | 0 |
+| Remediation applied | 27 |
 | Remediation skipped | 0 |
 
 ## Start here
@@ -34,7 +34,3 @@ Generated from Confluence and repository evidence.
 ## Human review required
 
 QA repair still has unresolved concepts. Review _reports/qa_repair_report.yaml before publishing downstream.
-
-## Human review required
-
-Remediation proposed changes, but none were applied. See _reports/applied_changes.yaml.

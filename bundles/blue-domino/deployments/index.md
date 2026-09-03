@@ -1,5 +1,32 @@
 # Deployments
 
+- [Createsecret](createsecret.md) - deployment_process.createsecret
+- [Default](default.md) - deployment_process.default
+- [Digital Sync Cdc](digital-sync-cdc.md) - deployment_process.digital-sync-cdc
+- [Disney Daily Reconciliation](disney-daily-reconciliation.md) - deployment_process.disney-daily-reconciliation
+- [Disney Daily Reconciliation Batch Job](disney-daily-reconciliation-batch-job.md) - deployment_process.disney-daily-reconciliation-batch-job
+- [Disney Monthly Reconciliation](disney-monthly-reconciliation.md) - deployment_process.disney-monthly-reconciliation
+- [Disney Monthly Reconciliation Batch Job](disney-monthly-reconciliation-batch-job.md) - deployment_process.disney-monthly-reconciliation-batch-job
 - [Domino Batch Jobs Deployment and Release Process](process-domino-batch-jobs-release.md) - deployment_process.process-domino-batch-jobs-release
 - [Domino JWK Token Rotation Deployment](process-domino-jwk-token-rotation.md) - deployment_process.process-domino-jwk-token-rotation
+- [Ec](ec.md) - deployment_process.ec
+- [Ec Cp Forward Sync](ec-cp-forward-sync.md) - deployment_process.ec-cp-forward-sync
+- [Ec Cp Sync](ec-cp-sync.md) - deployment_process.ec-cp-sync
+- [Getting Started Service](getting-started-service.md) - deployment_process.getting-started-service
+- [Harness](harness.md) - deployment_process.harness
+- [Harness Example](harness-example.md) - deployment_process.harness-example
+- [Health Monitor](health-monitor.md) - deployment_process.health-monitor
+- [Loyalty Bulkload Sync](loyalty-bulkload-sync.md) - deployment_process.loyalty-bulkload-sync
+- [Loyalty Sync](loyalty-sync.md) - deployment_process.loyalty-sync
+- [Node Harness Cli Gh Action](node-harness-cli-gh-action.md) - deployment_process.node-harness-cli-gh-action
+- [Pa Cp Dlq Consumer Cron](pa-cp-dlq-consumer-cron.md) - deployment_process.pa-cp-dlq-consumer-cron
+- [Pa Cp Event Consumer Cron](pa-cp-event-consumer-cron.md) - deployment_process.pa-cp-event-consumer-cron
+- [Pa Cp Forward Sync](pa-cp-forward-sync.md) - deployment_process.pa-cp-forward-sync
 - [Partner Benefit Subscriber Recovery Deployment](process-partner-benefit-subscriber-recovery.md) - deployment_process.process-partner-benefit-subscriber-recovery
+- [personcore](personcore.md) - deployment_process.personcore
+- [preferences-core](preferences-core.md) - deployment_process.preferences-core
+- [servicespecific](servicespecific.md) - deployment_process.servicespecific
+- [shopper-profiles-core](shopper-profiles-core.md) - deployment_process.shopper-profiles-core
+- [sync-harness-ng-token](sync-harness-ng-token.md) - deployment_process.sync-harness-ng-token
+- [update-configs-for-performance-test-core-services](update-configs-for-performance-test-core-services.md) - deployment_process.update-configs-for-performance-test-core-services
+- [valkyrie](valkyrie.md) - deployment_process.valkyrie

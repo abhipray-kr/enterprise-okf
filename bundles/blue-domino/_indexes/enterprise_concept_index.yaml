@@ -1,6 +1,6 @@
 schema_version: okf.enterprise_concept_index.v1
 generated:
-  generated_at: '2026-09-02T22:59:53.882015+00:00'
+  generated_at: '2026-09-03T07:06:20.973751+00:00'
   generator: okf-confluence
   source: compiled_from_domain_concept_indexes
 concepts:
@@ -304,6 +304,270 @@ concepts:
     published_path: data-models/rsa-key-pair.md
     okf_path_id: data-models/rsa-key-pair
     source_artifact_path: concepts/data_model.rsa-key-pair.ok.md
+  96894978:deployment_process.createsecret:
+    canonical_id: deployment_process.createsecret
+    concept_type: deployment_process
+    display_name: Createsecret
+    path: concepts/deployment_process.createsecret.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.createsecret
+    domain: '96894978'
+    published_path: deployments/createsecret.md
+    okf_path_id: deployments/createsecret
+    source_artifact_path: concepts/deployment_process.createsecret.ok.md
+  96894978:deployment_process.default:
+    canonical_id: deployment_process.default
+    concept_type: deployment_process
+    display_name: Default
+    path: concepts/deployment_process.default.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.default
+    domain: '96894978'
+    published_path: deployments/default.md
+    okf_path_id: deployments/default
+    source_artifact_path: concepts/deployment_process.default.ok.md
+  96894978:deployment_process.digital-sync-cdc:
+    canonical_id: deployment_process.digital-sync-cdc
+    concept_type: deployment_process
+    display_name: Digital Sync Cdc
+    path: concepts/deployment_process.digital-sync-cdc.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.digital-sync-cdc
+    domain: '96894978'
+    published_path: deployments/digital-sync-cdc.md
+    okf_path_id: deployments/digital-sync-cdc
+    source_artifact_path: concepts/deployment_process.digital-sync-cdc.ok.md
+  96894978:deployment_process.disney-daily-reconciliation:
+    canonical_id: deployment_process.disney-daily-reconciliation
+    concept_type: deployment_process
+    display_name: Disney Daily Reconciliation
+    path: concepts/deployment_process.disney-daily-reconciliation.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.disney-daily-reconciliation
+    domain: '96894978'
+    published_path: deployments/disney-daily-reconciliation.md
+    okf_path_id: deployments/disney-daily-reconciliation
+    source_artifact_path: concepts/deployment_process.disney-daily-reconciliation.ok.md
+  96894978:deployment_process.disney-daily-reconciliation-batch-job:
+    canonical_id: deployment_process.disney-daily-reconciliation-batch-job
+    concept_type: deployment_process
+    display_name: Disney Daily Reconciliation Batch Job
+    path: concepts/deployment_process.disney-daily-reconciliation-batch-job.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.disney-daily-reconciliation-batch-job
+    domain: '96894978'
+    published_path: deployments/disney-daily-reconciliation-batch-job.md
+    okf_path_id: deployments/disney-daily-reconciliation-batch-job
+    source_artifact_path: concepts/deployment_process.disney-daily-reconciliation-batch-job.ok.md
+  96894978:deployment_process.disney-monthly-reconciliation:
+    canonical_id: deployment_process.disney-monthly-reconciliation
+    concept_type: deployment_process
+    display_name: Disney Monthly Reconciliation
+    path: concepts/deployment_process.disney-monthly-reconciliation.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.disney-monthly-reconciliation
+    domain: '96894978'
+    published_path: deployments/disney-monthly-reconciliation.md
+    okf_path_id: deployments/disney-monthly-reconciliation
+    source_artifact_path: concepts/deployment_process.disney-monthly-reconciliation.ok.md
+  96894978:deployment_process.disney-monthly-reconciliation-batch-job:
+    canonical_id: deployment_process.disney-monthly-reconciliation-batch-job
+    concept_type: deployment_process
+    display_name: Disney Monthly Reconciliation Batch Job
+    path: concepts/deployment_process.disney-monthly-reconciliation-batch-job.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.disney-monthly-reconciliation-batch-job
+    domain: '96894978'
+    published_path: deployments/disney-monthly-reconciliation-batch-job.md
+    okf_path_id: deployments/disney-monthly-reconciliation-batch-job
+    source_artifact_path: concepts/deployment_process.disney-monthly-reconciliation-batch-job.ok.md
+  96894978:deployment_process.ec:
+    canonical_id: deployment_process.ec
+    concept_type: deployment_process
+    display_name: Ec
+    path: concepts/deployment_process.ec.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.ec
+    domain: '96894978'
+    published_path: deployments/ec.md
+    okf_path_id: deployments/ec
+    source_artifact_path: concepts/deployment_process.ec.ok.md
+  96894978:deployment_process.ec-cp-forward-sync:
+    canonical_id: deployment_process.ec-cp-forward-sync
+    concept_type: deployment_process
+    display_name: Ec Cp Forward Sync
+    path: concepts/deployment_process.ec-cp-forward-sync.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.ec-cp-forward-sync
+    domain: '96894978'
+    published_path: deployments/ec-cp-forward-sync.md
+    okf_path_id: deployments/ec-cp-forward-sync
+    source_artifact_path: concepts/deployment_process.ec-cp-forward-sync.ok.md
+  96894978:deployment_process.ec-cp-sync:
+    canonical_id: deployment_process.ec-cp-sync
+    concept_type: deployment_process
+    display_name: Ec Cp Sync
+    path: concepts/deployment_process.ec-cp-sync.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.ec-cp-sync
+    domain: '96894978'
+    published_path: deployments/ec-cp-sync.md
+    okf_path_id: deployments/ec-cp-sync
+    source_artifact_path: concepts/deployment_process.ec-cp-sync.ok.md
+  96894978:deployment_process.getting-started-service:
+    canonical_id: deployment_process.getting-started-service
+    concept_type: deployment_process
+    display_name: Getting Started Service
+    path: concepts/deployment_process.getting-started-service.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.getting-started-service
+    domain: '96894978'
+    published_path: deployments/getting-started-service.md
+    okf_path_id: deployments/getting-started-service
+    source_artifact_path: concepts/deployment_process.getting-started-service.ok.md
+  96894978:deployment_process.harness:
+    canonical_id: deployment_process.harness
+    concept_type: deployment_process
+    display_name: Harness
+    path: concepts/deployment_process.harness.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.harness
+    domain: '96894978'
+    published_path: deployments/harness.md
+    okf_path_id: deployments/harness
+    source_artifact_path: concepts/deployment_process.harness.ok.md
+  96894978:deployment_process.harness-example:
+    canonical_id: deployment_process.harness-example
+    concept_type: deployment_process
+    display_name: Harness Example
+    path: concepts/deployment_process.harness-example.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.harness-example
+    domain: '96894978'
+    published_path: deployments/harness-example.md
+    okf_path_id: deployments/harness-example
+    source_artifact_path: concepts/deployment_process.harness-example.ok.md
+  96894978:deployment_process.health-monitor:
+    canonical_id: deployment_process.health-monitor
+    concept_type: deployment_process
+    display_name: Health Monitor
+    path: concepts/deployment_process.health-monitor.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.health-monitor
+    domain: '96894978'
+    published_path: deployments/health-monitor.md
+    okf_path_id: deployments/health-monitor
+    source_artifact_path: concepts/deployment_process.health-monitor.ok.md
+  96894978:deployment_process.loyalty-bulkload-sync:
+    canonical_id: deployment_process.loyalty-bulkload-sync
+    concept_type: deployment_process
+    display_name: Loyalty Bulkload Sync
+    path: concepts/deployment_process.loyalty-bulkload-sync.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.loyalty-bulkload-sync
+    domain: '96894978'
+    published_path: deployments/loyalty-bulkload-sync.md
+    okf_path_id: deployments/loyalty-bulkload-sync
+    source_artifact_path: concepts/deployment_process.loyalty-bulkload-sync.ok.md
+  96894978:deployment_process.loyalty-sync:
+    canonical_id: deployment_process.loyalty-sync
+    concept_type: deployment_process
+    display_name: Loyalty Sync
+    path: concepts/deployment_process.loyalty-sync.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.loyalty-sync
+    domain: '96894978'
+    published_path: deployments/loyalty-sync.md
+    okf_path_id: deployments/loyalty-sync
+    source_artifact_path: concepts/deployment_process.loyalty-sync.ok.md
+  96894978:deployment_process.node-harness-cli-gh-action:
+    canonical_id: deployment_process.node-harness-cli-gh-action
+    concept_type: deployment_process
+    display_name: Node Harness Cli Gh Action
+    path: concepts/deployment_process.node-harness-cli-gh-action.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.node-harness-cli-gh-action
+    domain: '96894978'
+    published_path: deployments/node-harness-cli-gh-action.md
+    okf_path_id: deployments/node-harness-cli-gh-action
+    source_artifact_path: concepts/deployment_process.node-harness-cli-gh-action.ok.md
+  96894978:deployment_process.pa-cp-dlq-consumer-cron:
+    canonical_id: deployment_process.pa-cp-dlq-consumer-cron
+    concept_type: deployment_process
+    display_name: Pa Cp Dlq Consumer Cron
+    path: concepts/deployment_process.pa-cp-dlq-consumer-cron.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.pa-cp-dlq-consumer-cron
+    domain: '96894978'
+    published_path: deployments/pa-cp-dlq-consumer-cron.md
+    okf_path_id: deployments/pa-cp-dlq-consumer-cron
+    source_artifact_path: concepts/deployment_process.pa-cp-dlq-consumer-cron.ok.md
+  96894978:deployment_process.pa-cp-event-consumer-cron:
+    canonical_id: deployment_process.pa-cp-event-consumer-cron
+    concept_type: deployment_process
+    display_name: Pa Cp Event Consumer Cron
+    path: concepts/deployment_process.pa-cp-event-consumer-cron.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.pa-cp-event-consumer-cron
+    domain: '96894978'
+    published_path: deployments/pa-cp-event-consumer-cron.md
+    okf_path_id: deployments/pa-cp-event-consumer-cron
+    source_artifact_path: concepts/deployment_process.pa-cp-event-consumer-cron.ok.md
+  96894978:deployment_process.pa-cp-forward-sync:
+    canonical_id: deployment_process.pa-cp-forward-sync
+    concept_type: deployment_process
+    display_name: Pa Cp Forward Sync
+    path: concepts/deployment_process.pa-cp-forward-sync.ok.md
+    lifecycle_status: unknown
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.pa-cp-forward-sync
+    domain: '96894978'
+    published_path: deployments/pa-cp-forward-sync.md
+    okf_path_id: deployments/pa-cp-forward-sync
+    source_artifact_path: concepts/deployment_process.pa-cp-forward-sync.ok.md
+  96894978:deployment_process.personcore:
+    canonical_id: deployment_process.personcore
+    concept_type: deployment_process
+    display_name: personcore
+    path: concepts/deployment_process.personcore.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.personcore
+    domain: '96894978'
+    published_path: deployments/personcore.md
+    okf_path_id: deployments/personcore
+    source_artifact_path: concepts/deployment_process.personcore.ok.md
+  96894978:deployment_process.preferences-core:
+    canonical_id: deployment_process.preferences-core
+    concept_type: deployment_process
+    display_name: preferences-core
+    path: concepts/deployment_process.preferences-core.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.preferences-core
+    domain: '96894978'
+    published_path: deployments/preferences-core.md
+    okf_path_id: deployments/preferences-core
+    source_artifact_path: concepts/deployment_process.preferences-core.ok.md
   96894978:deployment_process.process-domino-batch-jobs-release:
     canonical_id: deployment_process.process-domino-batch-jobs-release
     concept_type: deployment_process
@@ -340,6 +604,66 @@ concepts:
     published_path: deployments/process-partner-benefit-subscriber-recovery.md
     okf_path_id: deployments/process-partner-benefit-subscriber-recovery
     source_artifact_path: concepts/deployment_process.process-partner-benefit-subscriber-recovery.ok.md
+  96894978:deployment_process.servicespecific:
+    canonical_id: deployment_process.servicespecific
+    concept_type: deployment_process
+    display_name: servicespecific
+    path: concepts/deployment_process.servicespecific.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.servicespecific
+    domain: '96894978'
+    published_path: deployments/servicespecific.md
+    okf_path_id: deployments/servicespecific
+    source_artifact_path: concepts/deployment_process.servicespecific.ok.md
+  96894978:deployment_process.shopper-profiles-core:
+    canonical_id: deployment_process.shopper-profiles-core
+    concept_type: deployment_process
+    display_name: shopper-profiles-core
+    path: concepts/deployment_process.shopper-profiles-core.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.shopper-profiles-core
+    domain: '96894978'
+    published_path: deployments/shopper-profiles-core.md
+    okf_path_id: deployments/shopper-profiles-core
+    source_artifact_path: concepts/deployment_process.shopper-profiles-core.ok.md
+  96894978:deployment_process.sync-harness-ng-token:
+    canonical_id: deployment_process.sync-harness-ng-token
+    concept_type: deployment_process
+    display_name: sync-harness-ng-token
+    path: concepts/deployment_process.sync-harness-ng-token.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.sync-harness-ng-token
+    domain: '96894978'
+    published_path: deployments/sync-harness-ng-token.md
+    okf_path_id: deployments/sync-harness-ng-token
+    source_artifact_path: concepts/deployment_process.sync-harness-ng-token.ok.md
+  96894978:deployment_process.update-configs-for-performance-test-core-services:
+    canonical_id: deployment_process.update-configs-for-performance-test-core-services
+    concept_type: deployment_process
+    display_name: update-configs-for-performance-test-core-services
+    path: concepts/deployment_process.update-configs-for-performance-test-core-services.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.update-configs-for-performance-test-core-services
+    domain: '96894978'
+    published_path: deployments/update-configs-for-performance-test-core-services.md
+    okf_path_id: deployments/update-configs-for-performance-test-core-services
+    source_artifact_path: concepts/deployment_process.update-configs-for-performance-test-core-services.ok.md
+  96894978:deployment_process.valkyrie:
+    canonical_id: deployment_process.valkyrie
+    concept_type: deployment_process
+    display_name: valkyrie
+    path: concepts/deployment_process.valkyrie.ok.md
+    lifecycle_status: active
+    content_version: 1
+    source_fingerprint: remediation:deployment_process.valkyrie
+    domain: '96894978'
+    published_path: deployments/valkyrie.md
+    okf_path_id: deployments/valkyrie
+    source_artifact_path: concepts/deployment_process.valkyrie.ok.md
   96894978:disaster_recovery_plan.plan-partner-benefit-subscriber:
     canonical_id: disaster_recovery_plan.plan-partner-benefit-subscriber
     concept_type: disaster_recovery_plan

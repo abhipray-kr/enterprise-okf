@@ -1,7 +1,7 @@
 schema_version: okf.version_index.v1
 domain: '96894978'
 generated:
-  generated_at: '2026-09-02T22:59:53.882801Z'
+  generated_at: '2026-09-03T07:06:20.974479Z'
   generator: okf-confluence
   source: compiled_from_concept_files
   source_hash: null
@@ -248,6 +248,138 @@ concepts:
     content_version: 1
     last_generated_at: '2026-09-02T21:51:02.438323Z'
     source_fingerprint: sha256:7e0bec5fa802d2081888b06aadb0113bb5adce5a5689363f754376c9e0c21ec5
+  deployment_process.createsecret:
+    canonical_id: deployment_process.createsecret
+    path: concepts/deployment_process.createsecret.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.894808Z'
+    source_fingerprint: remediation:deployment_process.createsecret
+  deployment_process.default:
+    canonical_id: deployment_process.default
+    path: concepts/deployment_process.default.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.894915Z'
+    source_fingerprint: remediation:deployment_process.default
+  deployment_process.digital-sync-cdc:
+    canonical_id: deployment_process.digital-sync-cdc
+    path: concepts/deployment_process.digital-sync-cdc.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.894992Z'
+    source_fingerprint: remediation:deployment_process.digital-sync-cdc
+  deployment_process.disney-daily-reconciliation:
+    canonical_id: deployment_process.disney-daily-reconciliation
+    path: concepts/deployment_process.disney-daily-reconciliation.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895064Z'
+    source_fingerprint: remediation:deployment_process.disney-daily-reconciliation
+  deployment_process.disney-daily-reconciliation-batch-job:
+    canonical_id: deployment_process.disney-daily-reconciliation-batch-job
+    path: concepts/deployment_process.disney-daily-reconciliation-batch-job.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895136Z'
+    source_fingerprint: remediation:deployment_process.disney-daily-reconciliation-batch-job
+  deployment_process.disney-monthly-reconciliation:
+    canonical_id: deployment_process.disney-monthly-reconciliation
+    path: concepts/deployment_process.disney-monthly-reconciliation.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895204Z'
+    source_fingerprint: remediation:deployment_process.disney-monthly-reconciliation
+  deployment_process.disney-monthly-reconciliation-batch-job:
+    canonical_id: deployment_process.disney-monthly-reconciliation-batch-job
+    path: concepts/deployment_process.disney-monthly-reconciliation-batch-job.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895273Z'
+    source_fingerprint: remediation:deployment_process.disney-monthly-reconciliation-batch-job
+  deployment_process.ec:
+    canonical_id: deployment_process.ec
+    path: concepts/deployment_process.ec.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895336Z'
+    source_fingerprint: remediation:deployment_process.ec
+  deployment_process.ec-cp-forward-sync:
+    canonical_id: deployment_process.ec-cp-forward-sync
+    path: concepts/deployment_process.ec-cp-forward-sync.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895402Z'
+    source_fingerprint: remediation:deployment_process.ec-cp-forward-sync
+  deployment_process.ec-cp-sync:
+    canonical_id: deployment_process.ec-cp-sync
+    path: concepts/deployment_process.ec-cp-sync.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895468Z'
+    source_fingerprint: remediation:deployment_process.ec-cp-sync
+  deployment_process.getting-started-service:
+    canonical_id: deployment_process.getting-started-service
+    path: concepts/deployment_process.getting-started-service.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895543Z'
+    source_fingerprint: remediation:deployment_process.getting-started-service
+  deployment_process.harness:
+    canonical_id: deployment_process.harness
+    path: concepts/deployment_process.harness.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895613Z'
+    source_fingerprint: remediation:deployment_process.harness
+  deployment_process.harness-example:
+    canonical_id: deployment_process.harness-example
+    path: concepts/deployment_process.harness-example.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895682Z'
+    source_fingerprint: remediation:deployment_process.harness-example
+  deployment_process.health-monitor:
+    canonical_id: deployment_process.health-monitor
+    path: concepts/deployment_process.health-monitor.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895751Z'
+    source_fingerprint: remediation:deployment_process.health-monitor
+  deployment_process.loyalty-bulkload-sync:
+    canonical_id: deployment_process.loyalty-bulkload-sync
+    path: concepts/deployment_process.loyalty-bulkload-sync.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895822Z'
+    source_fingerprint: remediation:deployment_process.loyalty-bulkload-sync
+  deployment_process.loyalty-sync:
+    canonical_id: deployment_process.loyalty-sync
+    path: concepts/deployment_process.loyalty-sync.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895890Z'
+    source_fingerprint: remediation:deployment_process.loyalty-sync
+  deployment_process.node-harness-cli-gh-action:
+    canonical_id: deployment_process.node-harness-cli-gh-action
+    path: concepts/deployment_process.node-harness-cli-gh-action.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.895962Z'
+    source_fingerprint: remediation:deployment_process.node-harness-cli-gh-action
+  deployment_process.pa-cp-dlq-consumer-cron:
+    canonical_id: deployment_process.pa-cp-dlq-consumer-cron
+    path: concepts/deployment_process.pa-cp-dlq-consumer-cron.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896047Z'
+    source_fingerprint: remediation:deployment_process.pa-cp-dlq-consumer-cron
+  deployment_process.pa-cp-event-consumer-cron:
+    canonical_id: deployment_process.pa-cp-event-consumer-cron
+    path: concepts/deployment_process.pa-cp-event-consumer-cron.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896118Z'
+    source_fingerprint: remediation:deployment_process.pa-cp-event-consumer-cron
+  deployment_process.pa-cp-forward-sync:
+    canonical_id: deployment_process.pa-cp-forward-sync
+    path: concepts/deployment_process.pa-cp-forward-sync.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896188Z'
+    source_fingerprint: remediation:deployment_process.pa-cp-forward-sync
+  deployment_process.personcore:
+    canonical_id: deployment_process.personcore
+    path: concepts/deployment_process.personcore.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896248Z'
+    source_fingerprint: remediation:deployment_process.personcore
+  deployment_process.preferences-core:
+    canonical_id: deployment_process.preferences-core
+    path: concepts/deployment_process.preferences-core.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896308Z'
+    source_fingerprint: remediation:deployment_process.preferences-core
   deployment_process.process-domino-batch-jobs-release:
     canonical_id: deployment_process.process-domino-batch-jobs-release
     path: concepts/deployment_process.process-domino-batch-jobs-release.ok.md
@@ -266,6 +398,36 @@ concepts:
     content_version: 1
     last_generated_at: '2026-09-02T21:52:19.304243Z'
     source_fingerprint: sha256:f21d75aec5b053da0a89458d825c04ed2f150745dd0316f5319309c09b11aefb
+  deployment_process.servicespecific:
+    canonical_id: deployment_process.servicespecific
+    path: concepts/deployment_process.servicespecific.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896365Z'
+    source_fingerprint: remediation:deployment_process.servicespecific
+  deployment_process.shopper-profiles-core:
+    canonical_id: deployment_process.shopper-profiles-core
+    path: concepts/deployment_process.shopper-profiles-core.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896423Z'
+    source_fingerprint: remediation:deployment_process.shopper-profiles-core
+  deployment_process.sync-harness-ng-token:
+    canonical_id: deployment_process.sync-harness-ng-token
+    path: concepts/deployment_process.sync-harness-ng-token.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896482Z'
+    source_fingerprint: remediation:deployment_process.sync-harness-ng-token
+  deployment_process.update-configs-for-performance-test-core-services:
+    canonical_id: deployment_process.update-configs-for-performance-test-core-services
+    path: concepts/deployment_process.update-configs-for-performance-test-core-services.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896543Z'
+    source_fingerprint: remediation:deployment_process.update-configs-for-performance-test-core-services
+  deployment_process.valkyrie:
+    canonical_id: deployment_process.valkyrie
+    path: concepts/deployment_process.valkyrie.ok.md
+    content_version: 1
+    last_generated_at: '2026-09-03T07:06:20.896600Z'
+    source_fingerprint: remediation:deployment_process.valkyrie
   disaster_recovery_plan.plan-partner-benefit-subscriber:
     canonical_id: disaster_recovery_plan.plan-partner-benefit-subscriber
     path: concepts/disaster_recovery_plan.plan-partner-benefit-subscriber.ok.md
